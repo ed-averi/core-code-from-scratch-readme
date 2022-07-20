@@ -76,5 +76,5 @@ Your team has just seen the movie "Matrix" and you have been asked, how the numb
 
 | Hexadecimal | Binary Code |
 | --- | --- |
-| `11.1.1994` | 0001 0000 1111 0111 1011 1010 |
+| `11.1.1994` | 1011.1.11111001010 |
 
