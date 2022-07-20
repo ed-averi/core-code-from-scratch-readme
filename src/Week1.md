@@ -32,10 +32,15 @@ Code written in Java is:
 
 Then, as shown in the right section of the above image, another program called java starts the Java runtime environment and it may <strong>compile and/or interpret</strong> the bytecode by using the Java Interpreter/JIT Compiler.
 
+After reading the article and watched the video given, I agree with the explanation above, which isposted in the stackoverflow source. Java is a hybrid language, it can be interpreted or compiled. 
+
+</p>
+
+
 ### Task
-3. [Pseudocode Currency Converter](./exercises/e00/desc) exercise
+
+3. <u><strong>Pseudocode Currency Converter</strong></u> exercise
 
 ### Solution:
 
 
-</p>
