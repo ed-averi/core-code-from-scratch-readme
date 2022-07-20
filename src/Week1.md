@@ -11,4 +11,4 @@
 <ul>
   <li>Is Java compiled or interpreted, or both?</li>
 </ul>
-<img src="assets/java.png" width="600" height="300"/>
+<img src="../assets/java.png"/>
