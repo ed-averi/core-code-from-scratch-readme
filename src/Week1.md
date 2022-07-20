@@ -43,5 +43,13 @@ After reading the article and watched the video given, I agree with the explanat
 3. <u><strong>Pseudocode Currency Converter</strong></u> exercise
 
 ### Solution:
+``` html 
+  Starting point: START
+  Input: GET <--!User enters amount-->
+  Source: BTC (https://www.coindesk.com/price/bitcoin/)
+  Total: Input * BTC
+  PRINT: Result
+  End point: END
+```
 
 
