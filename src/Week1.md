@@ -5,7 +5,7 @@
 </a>
 
 # core-code-from-scratch-readme
-# Menu
+# [Index](/README.md)
 # Week 1 
 ## Tuesday
 <ul>

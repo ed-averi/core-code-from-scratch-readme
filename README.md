@@ -5,6 +5,6 @@
 </a>
 
 # core-code-from-scratch-readme
-# Menu
+# Index
 -[Week 1](src/Week1.md)
 
