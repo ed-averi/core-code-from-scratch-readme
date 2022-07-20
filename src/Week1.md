@@ -36,6 +36,7 @@ After reading the article and watched the video given, I agree with the explanat
 
 </p>
 
+<img src="../assets/imagen_2022-07-20_123904367"/>
 
 ### Task
 
