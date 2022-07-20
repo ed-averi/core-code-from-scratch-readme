@@ -5,8 +5,10 @@
 </a>
 
 # core-code-from-scratch-readme
-# Week 1
+# Menu
+# Week 1 
 ## Tuesday
 <ul>
   <li>Is Java compiled or interpreted, or both?</li>
 </ul>
+<img src="assets/java.png" width="600" height="300"/>
