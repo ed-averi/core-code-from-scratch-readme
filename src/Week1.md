@@ -84,7 +84,9 @@ Your team has just seen the movie "Matrix" and you have been asked, how the numb
 
 ## Description
 
-Based on the [guide](#guide) and the [examples](#examples) of the low-level language, create the following
+Based on the [guide](#guide) and the [examples](#examples) of the low-level language, create the following:
+
+### <u><i><strong>Solution</strong></i></u>:
 
 1. Create a program that adds any two given numbers provided by the user
 
