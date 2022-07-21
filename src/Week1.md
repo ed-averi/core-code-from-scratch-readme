@@ -231,6 +231,7 @@ if (n % 10 == 0) {
   console.log('This number is multiple of 10');
 }
 ```
+-[Source](https://youtu.be/IsG4Xd6LlsM)
 
 ### <u>Solution:</u>
 
