@@ -11,6 +11,19 @@
 ### Task
 
 1. Base on [this reading](https://www.freecodecamp.org/news/compiled-versus-interpreted-languages/) and [this video](https://www.youtube.com/watch?v=I1f45REi3k4), create an explanation about `Interpreted And Compiled Programming Languages` in your README
+
+<p>
+
+<strong>Compiled Language:</strong>
+
+Is a programming language which are generally compiled and not interpreted. It is one where the program, once compiled, is expressed in the instructions of the target machine; this machine code is undecipherable by humans. Types of compiled language – C, C++, C#, CLEO, COBOL, etc.
+
+<strong>Interpreted Language:</strong>
+
+An interpreted language is a programming language which are generally interpreted, without compiling a program into machine instructions. It is one where the instructions are not directly executed by the target machine, but instead read and executed by some other program. Interpreted language ranges – JavaScript, Perl, Python, BASIC, etc.
+
+</p>
+
 2. Is Java compiled or interpreted, or both?, check the sources and answer the question in your README
 
    - [Video Source](https://www.youtube.com/watch?v=G81hoJTvQVg)
@@ -138,3 +151,5 @@ Based on the [guide](#guide) and the [examples](#examples) of the low-level lang
               la $a0, message
               syscall
 ```
+
+## Week Challenge Thursday
