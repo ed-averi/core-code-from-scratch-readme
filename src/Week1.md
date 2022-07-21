@@ -153,3 +153,26 @@ Based on the [guide](#guide) and the [examples](#examples) of the low-level lang
 ```
 
 ## Week Challenge Thursday
+
+## Print special numbers
+
+### Description
+
+In this exercise you must use an iterative flow control to be able to print all the even numbers in the range of numbers from 0 to 100. Remember that you should not print each number, you should use a flow control structure to perform the exercise
+
+``` python
+for num in range(1,100):
+    if num%2==0:
+        print (num)
+
+
+Output:
+
+2
+4
+6
+8
+10
+;
+98
+```
