@@ -1,13 +1,17 @@
 <a href="https://www.core-code.io/">
 
-![alt text](https://uploads-ssl.webflow.com/5eb2f56932c3562feab232e3/5f73550d00249e7e96c9f3de_Logo.png 'corecodeio')
+![alt text](https://uploads-ssl.webflow.com/5eb2f56932c3562feab232e3/5f73550d00249e7e96c9f3de_Logo.png "corecodeio")
 
 </a>
 
 # core-code-from-scratch-readme
+
 # [Index](/README.md)
-# Week 1 
+
+# Week 1
+
 ## Week Challenge Tuesday
+
 ### Task
 
 1. Base on [this reading](https://www.freecodecamp.org/news/compiled-versus-interpreted-languages/) and [this video](https://www.youtube.com/watch?v=I1f45REi3k4), create an explanation about `Interpreted And Compiled Programming Languages` in your README
@@ -33,6 +37,7 @@ An interpreted language is a programming language which are generally interprete
    - [StackOverflow Source](https://stackoverflow.com/questions/1326071/is-java-a-compiled-or-an-interpreted-programming-language)
 
 ### Solution:
+
 <ul>
   <li>Is Java compiled or interpreted, or both?</li>
 </ul>
@@ -45,7 +50,7 @@ Code written in Java is:
 
 Then, as shown in the right section of the above image, another program called java starts the Java runtime environment and it may <strong>compile and/or interpret</strong> the bytecode by using the Java Interpreter/JIT Compiler.
 
-After reading the article and watched the video given, I agree with the explanation above, which isposted in the stackoverflow source. Java is a hybrid language, it can be interpreted or compiled. 
+After reading the article and watched the video given, I agree with the explanation above, which isposted in the stackoverflow source. Java is a hybrid language, it can be interpreted or compiled.
 
 </p>
 
@@ -63,14 +68,13 @@ After reading the article and watched the video given, I agree with the explanat
 4. [Check about algorithms](https://www.youtube.com/watch?v=6hfOvs8pY1k)
 
 ### Solution:
-``` html 
-  Starting point: START
-  Input: GET <--!User enters amount-->
-  Source: BTC (https://www.coindesk.com/price/bitcoin/)
-  Total: Input * BTC
-  PRINT: Result
-  End point: END
+
+```html
+Starting point: START Input: GET <--!User enters amount--> Source: BTC
+(https://www.coindesk.com/price/bitcoin/) Total: Input * BTC PRINT: Result End
+point: END
 ```
+
 ## Week Challenge Wednesday
 
 ### Your date of birth in the matrix?
@@ -87,8 +91,8 @@ Your team has just seen the movie "Matrix" and you have been asked, how the numb
 
 ### <u>Solution</u>:
 
-| Hexadecimal | Binary Code |
-| --- | --- |
+| Hexadecimal | Binary Code        |
+| ----------- | ------------------ |
 | `11.1.1994` | 1011.1.11111001010 |
 
 ## <u>Task</u>
@@ -103,7 +107,7 @@ Based on the [guide](#guide) and the [examples](#examples) of the low-level lang
 
 1. Create a program that adds any two given numbers provided by the user
 
-``` assembly
+```assembly
 .data
     n1: .asciiz "enter your first number: "
     n2: .asciiz "enter your second number: "
@@ -162,22 +166,47 @@ In this exercise you must use an iterative flow control to be able to print all 
 
 ### <u>Solution:</u>
 
-``` python
+### Python
+
+```python
 for num in range(0,100):
     if num%2==0:
         print (num)
 
-
-Output:
-
-2
-4
-6
-8
-10
-;
-98
 ```
+
+### C#
+
+```C#
+using System;
+
+public class Program
+{
+  public static void Main()
+  {
+    for (int i =0; i<=100; i++)
+    {
+      if(i % 2 ==0)
+      {
+        Console.WriteLine(i);
+      }
+    }
+  }
+
+}
+
+```
+
+### Javascript
+
+```javascript
+for (num = 0; num <= 100; num++) {
+  if (num % 2 == 0) {
+    document.write(num);
+  }
+}
+```
+
 # Bad code
 
 ## Description
@@ -187,28 +216,25 @@ The code shown below is not working in the right way, as a task you must find th
 ```javascript
 var cond = false;
 if ((cond = true)) {
-  console.log('The cond variable is true');
+  console.log("The cond variable is true");
 } else {
-  console.log('The cond variable is false');
+  console.log("The cond variable is false");
 }
 ```
 
 ### <u>Solution:</u>
 
-``` javascript
+```javascript
 var cond = false;
 
-if (cond == true) 
-{
-  console.log('The cond variable is true');
-} 
-else 
-{
-  console.log('The cond variable is false');
+if (cond == true) {
+  console.log("The cond variable is true");
+} else {
+  console.log("The cond variable is false");
 }
 
-Output
-"The cond variable is true"
+Output;
+("The cond variable is true");
 ```
 
 # Bad code 2
@@ -220,37 +246,32 @@ You must create the code that follows the following logic, if the given number i
 ```javascript
 var n = 100;
 if (n == 100) {
-  console.log('This is a special number!');
+  console.log("This is a special number!");
 }
 if (n < 1000) {
-  console.log('');
+  console.log("");
 } else {
-  console.log('Just a regular number');
+  console.log("Just a regular number");
 }
 if (n % 10 == 0) {
-  console.log('This number is multiple of 10');
+  console.log("This number is multiple of 10");
 }
 ```
+
 -[Source](https://youtu.be/IsG4Xd6LlsM)
 
 ### <u>Solution:</u>
 
 ```javascript
 var n = 100;
-if (n == 100) 
-{
-  console.log('This is a special number!');
-}
-else if (n < 1000 && n %10==0) 
-{
-  console.log('This number is almost special');
-} 
-else 
-{
-  console.log('Just a regular number');
+if (n == 100) {
+  console.log("This is a special number!");
+} else if (n < 1000 && n % 10 == 0) {
+  console.log("This number is almost special");
+} else {
+  console.log("Just a regular number");
 }
 
-Output
-"This is a special number!"
-
+Output;
+("This is a special number!");
 ```
