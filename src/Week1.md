@@ -240,7 +240,7 @@ if (n == 100)
 {
   console.log('This is a special number!');
 }
-if (n < 1000 && n %10==0) 
+else if (n < 1000 && n %10==0) 
 {
   console.log('This number is almost special');
 } 
@@ -251,5 +251,5 @@ else
 
 Output
 "This is a special number!"
-"This number is almost special"
+
 ```
