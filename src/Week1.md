@@ -160,6 +160,8 @@ Based on the [guide](#guide) and the [examples](#examples) of the low-level lang
 
 In this exercise you must use an iterative flow control to be able to print all the even numbers in the range of numbers from 0 to 100. Remember that you should not print each number, you should use a flow control structure to perform the exercise
 
+### <u>Solution:</u>
+
 ``` python
 for num in range(0,100):
     if num%2==0:
@@ -175,4 +177,36 @@ Output:
 10
 ;
 98
+```
+# Bad code
+
+## Description
+
+The code shown below is not working in the right way, as a task you must find the error made by the developer who programmed this code and correct it, for this exercise you must explain what the error is and place the correct code
+
+```javascript
+var cond = false;
+if ((cond = true)) {
+  console.log('The cond variable is true');
+} else {
+  console.log('The cond variable is false');
+}
+```
+
+### <u>Solution:</u>
+
+``` javascript
+var cond = false;
+
+if (cond == true) 
+{
+  console.log('The cond variable is true');
+} 
+else 
+{
+  console.log('The cond variable is false');
+}
+
+Output
+"The cond variable is true"
 ```
