@@ -4,8 +4,8 @@
 
 </a>
 
-# core-code-from-scratch-readme
+# Javascript & Pause Day
 
 # [Index](/README.md)
 
-# Week 1
+# Week 4

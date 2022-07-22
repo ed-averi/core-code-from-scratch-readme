@@ -12,7 +12,7 @@
 
 <p>Hello there! Use the guide below to access each week</p>
 
-- Week 1 : [Introduction to programming & Javascript](src/Week1.md)
+- Week 1 : [Introduction to programming & Javascript](src/Week01.md)
 - Week 2 : [Javascript]()
 - Week 3 : [Javascript]()
 - Week 4 : [Javascript & Pause Day]()
