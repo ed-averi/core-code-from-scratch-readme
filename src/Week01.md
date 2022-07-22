@@ -91,9 +91,9 @@ Your team has just seen the movie "Matrix" and you have been asked, how the numb
 
 ### <u>Solution</u>:
 
-| Hexadecimal | Binary Code        |
-| ----------- | ------------------ |
-| `11.1.1994` | 1011.1.11111001010 |
+| Date of Birth | Binary Code        |
+| ------------- | ------------------ |
+| `11.1.1994`   | 1011.1.11111001010 |
 
 ## <u>Task</u>
 
