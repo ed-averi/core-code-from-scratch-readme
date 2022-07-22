@@ -4,8 +4,8 @@
 
 </a>
 
-# Puase Day & S.O.L.I.D
+# Javascript
 
 # [Index](/README.md)
 
-# Week 13
+# Week 3
