@@ -14,7 +14,7 @@
 
 ### Task
 
-1. Base on [this reading](https://www.freecodecamp.org/news/compiled-versus-interpreted-languages/) and [this video](https://www.youtube.com/watch?v=I1f45REi3k4), create an explanation about `Interpreted And Compiled Programming Languages` in your README
+1. Based on [this reading](https://www.freecodecamp.org/news/compiled-versus-interpreted-languages/) and [this video](https://www.youtube.com/watch?v=I1f45REi3k4), create an explanation about `Interpreted And Compiled Programming Languages` in your README
 
 <p>
 
@@ -258,7 +258,7 @@ if (n % 10 == 0) {
 }
 ```
 
--[Source](https://youtu.be/IsG4Xd6LlsM)
+-[Video Source](https://youtu.be/IsG4Xd6LlsM)
 
 ### <u>Solution:</u>
 
