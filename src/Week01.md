@@ -16,6 +16,8 @@
 
 1. Based on [this reading](https://www.freecodecamp.org/news/compiled-versus-interpreted-languages/) and [this video](https://www.youtube.com/watch?v=I1f45REi3k4), create an explanation about `Interpreted And Compiled Programming Languages` in your README
 
+### <u>Solution ✅</u>
+
 <p>
 
 <strong>Compiled Language:</strong>
@@ -36,7 +38,7 @@ An interpreted language is a programming language which are generally interprete
 
    - [StackOverflow Source](https://stackoverflow.com/questions/1326071/is-java-a-compiled-or-an-interpreted-programming-language)
 
-### Solution:
+### Solution ✅
 
 <ul>
   <li>Is Java compiled or interpreted, or both?</li>
@@ -67,7 +69,7 @@ After reading the article and watched the video given, I agree with the explanat
 3. [Yet more about pseudocode](https://www.freecodecamp.org/news/what-is-pseudocode-in-programming/)
 4. [Check about algorithms](https://www.youtube.com/watch?v=6hfOvs8pY1k)
 
-### Solution:
+### Solution ✅
 
 ```html
 Starting point: START Input: GET <--!User enters amount--> Source: BTC
@@ -89,7 +91,7 @@ Your team has just seen the movie "Matrix" and you have been asked, how the numb
 1. [Learn about binary](https://www.youtube.com/watch?v=LpuPe81bc2w)
 2. [Learn how to convert a decimal number to a binary number](https://www.youtube.com/watch?v=rsxT4FfRBaM)
 
-### <u>Solution</u>:
+### <u>Solution </u> ✅
 
 | Date of Birth | Binary Code        |
 | ------------- | ------------------ |
@@ -103,7 +105,7 @@ Your team has just seen the movie "Matrix" and you have been asked, how the numb
 
 Based on the [guide](#guide) and the [examples](#examples) of the low-level language, create the following:
 
-### <u><i><strong>Solution</strong></i></u>:
+### <u><i><strong>Solution </strong></i></u> ✅
 
 1. Create a program that adds any two given numbers provided by the user
 
@@ -164,7 +166,7 @@ Based on the [guide](#guide) and the [examples](#examples) of the low-level lang
 
 In this exercise you must use an iterative flow control to be able to print all the even numbers in the range of numbers from 0 to 100. Remember that you should not print each number, you should use a flow control structure to perform the exercise
 
-### <u>Solution:</u>
+### <u>Solution </u> ✅
 
 ### Python
 
@@ -222,7 +224,7 @@ if ((cond = true)) {
 }
 ```
 
-### <u>Solution:</u>
+### <u>Solution</u>✅
 
 ```javascript
 var cond = false;
@@ -260,7 +262,7 @@ if (n % 10 == 0) {
 
 -[Video Source](https://youtu.be/IsG4Xd6LlsM)
 
-### <u>Solution:</u>
+### <u>Solution </u> ✅
 
 ```javascript
 var n = 100;

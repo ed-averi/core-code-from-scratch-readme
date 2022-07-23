@@ -9,3 +9,34 @@
 # [Index](/README.md)
 
 # Week 2
+
+## Week goal 🏁
+
+<p>Learn about Javascript structure</p>
+
+## Week subtopics
+
+- Data types in Javascript
+  - number
+    - operators (+,-,/,\*)
+  - boolean
+    - operators (!, &&, ||)
+  - string
+    - properties (length, charAt, [])
+  - null
+  - undefined
+- comments in Javascript
+  - line comment
+  - block comment
+- Console
+- Loops
+  - While
+  - For
+- Conditionals
+  - Ternary operator
+- Functions
+- Difference between arguments and parameters
+- Default parameters
+- Arguments array
+
+## Week challenges (Monday) 💻
