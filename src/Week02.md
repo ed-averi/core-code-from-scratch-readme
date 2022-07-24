@@ -51,7 +51,7 @@
 ## Week challenges (Tuesday) 💻
 
 1. [Multiply](https://www.codewars.com/kata/50654ddff44f800200000004/train/javascript)
-2. ASCII Total
+2. [ASCII Total](https://www.codewars.com/kata/572b6b2772a38bc1e700007a/train/javascript)
 3. Char From ASCII Value
 4. Binary Addition
 5. Student's Final Grade
@@ -60,10 +60,42 @@
 
 <ol>
   <li>Multiply</li>
-</ol>
 
 ```javascript
 function multiply(a, b) {
   return a * b;
 }
 ```
+
+  <li>ASCII Total</li>
+ 
+ ### C#
+ ```c#
+using System.Linq;
+
+public class Kata {
+public static int UniTotal(string str)
+=> str.Sum(x=>(int)x);
+}
+
+````
+### Javascript
+```javascript
+function uniTotal (str){
+  return str.split("").reduce((a,c)=> a+=c.charCodeAt(),0)
+}
+````
+
+### Javascript 2
+
+```javascript
+function uniTotal(str) {
+  var count = 0;
+  for (var i = 0; i < str.length; i++) {
+    count += str.charCodeAt(i);
+  }
+  return count;
+}
+```
+
+</ol>
