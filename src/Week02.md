@@ -47,3 +47,23 @@
 4. Read about: [for](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for) ✅
 5. Read about: [while](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/while) ✅
 6. Read about: [functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/function) ✅
+
+## Week challenges (Tuesday) 💻
+
+1. [Multiply](https://www.codewars.com/kata/50654ddff44f800200000004/train/javascript)
+2. ASCII Total
+3. Char From ASCII Value
+4. Binary Addition
+5. Student's Final Grade
+
+### Solution: ✅
+
+<ol>
+  <li>Multiply</li>
+</ol>
+
+```javascript
+function multiply(a, b) {
+  return a * b;
+}
+```

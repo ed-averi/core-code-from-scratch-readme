@@ -71,10 +71,15 @@ After reading the article and watched the video given, I agree with the explanat
 
 ### Solution ✅
 
-```html
-Starting point: START Input: GET <--!User enters amount--> Source: BTC
-(https://www.coindesk.com/price/bitcoin/) Total: Input * BTC PRINT: Result End
-point: END
+```xml
+
+Starting point: START
+Input: GET <--!User enters amount-->
+Source: BTC(https://www.coindesk.com/price/bitcoin/)
+Total: Input * BTC
+PRINT: Result
+End point: END
+
 ```
 
 ## Week Challenge Wednesday
