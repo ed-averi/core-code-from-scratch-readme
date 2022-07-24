@@ -97,7 +97,7 @@ Your team has just seen the movie "Matrix" and you have been asked, how the numb
 | ------------- | -------------- |
 | `1994`        | 0111 1100 1010 |
 
-<img src="">
+<img src="../assets/binary.jpg" width="450">
 
 ## <u>Task</u>
 
