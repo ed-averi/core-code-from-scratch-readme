@@ -67,3 +67,5 @@ function multiply(a, b) {
   return a * b;
 }
 ```
+
+<img src="../assets/multiply.jpg" width="100%"/>
