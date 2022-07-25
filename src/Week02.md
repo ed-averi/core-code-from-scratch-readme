@@ -52,7 +52,7 @@
 
 1. [Multiply](https://www.codewars.com/kata/50654ddff44f800200000004/train/javascript)
 2. [ASCII Total](https://www.codewars.com/kata/572b6b2772a38bc1e700007a/train/javascript)
-3. Char From ASCII Value
+3. [Char From ASCII Value](https://www.codewars.com/kata/55ad04714f0b468e8200001c/train/javascript) | [String.fromCharCode()](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/String/fromCharCode)
 4. Binary Addition
 5. Student's Final Grade
 
@@ -95,6 +95,14 @@ function uniTotal(str) {
     count += str.charCodeAt(i);
   }
   return count;
+}
+```
+
+  <li>Char From ASCII Value</li>
+
+```javascript
+function getChar(c) {
+  return String.fromCharCode(c);
 }
 ```
 
