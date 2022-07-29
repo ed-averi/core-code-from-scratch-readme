@@ -54,7 +54,7 @@
 2. [ASCII Total](https://www.codewars.com/kata/572b6b2772a38bc1e700007a/train/javascript)
 3. [Char From ASCII Value](https://www.codewars.com/kata/55ad04714f0b468e8200001c/train/javascript) | [String.fromCharCode()](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/String/fromCharCode)
 4. [Binary Addition](https://www.codewars.com/kata/551f37452ff852b7bd000139/train/javascript)
-5. [Student's Final Grade](https://www.codewars.com/kata/5ad0d8356165e63c140014d4/train/javascript)
+5. [Student's Final Grade](https://www.codewars.com/kata/5ad0d8356165e63c140014d4/train/javascript) | [Source](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator)
 
 ### Solution: ✅
 
