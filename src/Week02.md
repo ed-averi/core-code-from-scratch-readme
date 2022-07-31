@@ -48,7 +48,7 @@
 5. Read about: [while](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/while) ✅
 6. Read about: [functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/function) ✅
 
-## Week challenges (Tuesday) 💻
+## Week challenges (Tuesday & Wednesday) 💻
 
 1. [Multiply](https://www.codewars.com/kata/50654ddff44f800200000004/train/javascript)
 2. [ASCII Total](https://www.codewars.com/kata/572b6b2772a38bc1e700007a/train/javascript)
@@ -125,6 +125,36 @@ function finalGrade(exam, projects) {
   if ((exam > 50) & (projects >= 2)) return 75;
 
   return 0;
+}
+```
+
+</ol>
+
+## Week challenges (Thursday) 💻
+
+1. Follow up with the [HTML](https://edpuzzle.com/join/vawasaj)
+2. [Remove All Exclamation Marks From The End Of Sentence](https://www.codewars.com/kata/57faece99610ced690000165/train/javascript) exercise
+3. [Vowel Remover](./exercises/e10/desc) exercise
+4. [Rock Paper Scissors!](./exercises/e11/desc) exercise
+5. [Persistent Bugger](./exercises/e12/desc) exercise
+
+<ol>
+
+<li><strong>Remove All Exclamation Marks From The End Of Sentence</strong></li>
+
+### Description
+
+```html
+Description: Remove all exclamation marks from the end of sentence. Examples
+remove("Hi!") === "Hi" remove("Hi!!!") === "Hi" remove("!Hi") === "!Hi"
+remove("!Hi!") === "!Hi" remove("Hi! Hi!") === "Hi! Hi" remove("Hi") === "Hi"
+```
+
+### Solution: ✅
+
+```javascript
+function remove(string) {
+  return string.replace(/!+$/, "");
 }
 ```
 
