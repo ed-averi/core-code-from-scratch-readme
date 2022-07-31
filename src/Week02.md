@@ -133,8 +133,8 @@ function finalGrade(exam, projects) {
 ## Week challenges (Thursday) 💻
 
 1. Follow up with the [HTML](https://edpuzzle.com/join/vawasaj)
-2. [Remove All Exclamation Marks From The End Of Sentence](https://www.codewars.com/kata/57faece99610ced690000165/train/javascript) exercise
-3. [Vowel Remover](./exercises/e10/desc) exercise
+2. [Remove All Exclamation Marks From The End Of Sentence](https://www.codewars.com/kata/57faece99610ced690000165/train/javascript) exercise || [String.prototype.replace()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replace)
+3. [Vowel Remover](./exercises/e10/desc) exercise || [Source](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replace) & [Regular expressions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions)
 4. [Rock Paper Scissors!](./exercises/e11/desc) exercise
 5. [Persistent Bugger](./exercises/e12/desc) exercise
 
@@ -145,7 +145,9 @@ function finalGrade(exam, projects) {
 ### Description
 
 ```xml
-Description: Remove all exclamation marks from the end of sentence. Examples
+Description:
+Remove all exclamation marks from the end of sentence. Examples:
+
 remove("Hi!") === "Hi"
 remove("Hi!!!") === "Hi"
 remove("!Hi") === "!Hi"
@@ -159,6 +161,50 @@ remove("Hi") === "Hi"
 ```javascript
 function remove(string) {
   return string.replace(/!+$/, "");
+}
+```
+
+<li><strong>Vowel Remover</strong></li>
+
+### Description
+
+```xml
+Create a function called shortcut to remove the lowercase vowels (a, e, i, o, u ) in a given string.
+
+Examples
+"hello"     -->  "hll"
+"codewars"  -->  "cdwrs"
+"goodbye"   -->  "gdby"
+"HELLO"     -->  "HELLO"
+don't worry about uppercase vowels
+y is not considered a vowel for this kata
+
+```
+
+### Solution: ✅
+
+```javascript
+function shortcut(string) {
+  /* Just some comments on the thought process. 
+  First I created a regular expression that will match all the vowels in a string. Then assign that regular expression to a variable called *vowels*
+  
+  */
+  const vowels = /[aeiou]/g;
+
+  /*
+   Next I use a combination of regular expressions and the replace() method to scan all the characters in a string. If a character is a vowel, it gets removed. 
+  */
+  return string.replace(vowels, "");
+}
+```
+
+OR
+
+```javascript
+/* A shorter version by removing the vowel variable declaration*/
+
+function shortcut(string) {
+  return string.replace(/[aeiou]/g, "");
 }
 ```
 
