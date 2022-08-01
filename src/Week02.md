@@ -136,7 +136,7 @@ function finalGrade(exam, projects) {
 2. [Remove All Exclamation Marks From The End Of Sentence](https://www.codewars.com/kata/57faece99610ced690000165/train/javascript) exercise || [String.prototype.replace()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replace)
 3. [Vowel Remover](./exercises/e10/desc) exercise || [Source](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replace) & [Regular expressions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions)
 4. [Rock Paper Scissors!](https://www.codewars.com/kata/5672a98bdbdd995fad00000f/train/javascript) exercise
-5. [Persistent Bugger](./exercises/e12/desc) exercise
+5. [Persistent Bugger](https://www.codewars.com/kata/55bf01e5a717a0d57e0000ec/train/javascript) exercise
 
 <ol>
 
@@ -278,9 +278,20 @@ const rps = (p1, p2) => {
 
 </ol>
 
-## Extra
+# Extra
 
-### Fake Binary
+## Fake Binary
+
+### Description
+
+```xml
+Given a string of digits, you should replace any digit below 5 with '0' and any digit 5 and above with '1'. Return the resulting string.
+
+Note: input will never be an empty string
+
+```
+
+### Solution: ✅
 
 ```javascript
 function fakeBin(x) {
