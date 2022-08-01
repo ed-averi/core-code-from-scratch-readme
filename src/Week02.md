@@ -284,12 +284,12 @@ const rps = (p1, p2) => {
 
 ```javascript
 function fakeBin(x) {
-  tmp = "";
+  gg = "";
   for (let i = 0; i < x.length; i++) {
-    if (x[i] < "5") tmp += "0";
-    else if (x[i] >= "5") tmp += "1";
+    if (x[i] < "5") gg += "0";
+    else if (x[i] >= "5") gg += "1";
   }
-  return tmp;
+  return gg;
 }
 ```
 
