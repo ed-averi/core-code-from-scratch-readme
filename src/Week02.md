@@ -294,7 +294,37 @@ For example (Input --> Output):
 ### Solution: ✅
 
 ```javascript
+function persistence(num) {
+  let counter = 0;
 
+  let digits = num.toString().split(""); // 39 -> "39" ->["3","9"]
+
+  while (digits.length > 1) {
+    let results = 1;
+
+    for (let i = 0; i < digits.length; i++) {
+      results = results * digits[i];
+    }
+    counter = counter + 1;
+
+    digits = results.toString().split("");
+  }
+  return counter;
+}
+```
+
+```javascript
+function persistence(num) {
+  let count = 0;
+  while (num.toString().length > 1) {
+    num = num
+      .toString()
+      .split("")
+      .reduce((acc, el) => (acc *= +el), 1);
+    count++;
+  }
+  return count;
+}
 ```
 
 </ol>
