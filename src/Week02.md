@@ -135,7 +135,7 @@ function finalGrade(exam, projects) {
 1. Follow up with the [HTML](https://edpuzzle.com/join/vawasaj)
 2. [Remove All Exclamation Marks From The End Of Sentence](https://www.codewars.com/kata/57faece99610ced690000165/train/javascript) exercise || [String.prototype.replace()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replace)
 3. [Vowel Remover](./exercises/e10/desc) exercise || [Source](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replace) & [Regular expressions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions)
-4. [Rock Paper Scissors!](./exercises/e11/desc) exercise
+4. [Rock Paper Scissors!](https://www.codewars.com/kata/5672a98bdbdd995fad00000f/train/javascript) exercise
 5. [Persistent Bugger](./exercises/e12/desc) exercise
 
 <ol>
@@ -277,3 +277,37 @@ const rps = (p1, p2) => {
 ```
 
 </ol>
+
+## Extra
+
+### Fake Binary
+
+```javascript
+function fakeBin(x) {
+  tmp = "";
+  for (let i = 0; i < x.length; i++) {
+    if (x[i] < "5") tmp += "0";
+    else if (x[i] >= "5") tmp += "1";
+  }
+  return tmp;
+}
+```
+
+OR
+
+```javascript
+function fakeBin(x) {
+  return x
+    .split("")
+    .map((y) => (y < 5 ? 0 : 1))
+    .join("");
+}
+```
+
+ANOTHER ONE
+
+```javascript
+function fakeBin(x) {
+  return x.replace(/[1234]/g, "0").replace(/[56789]/g, "1");
+}
+```
