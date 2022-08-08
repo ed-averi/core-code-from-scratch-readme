@@ -30,12 +30,12 @@
 ## Week challenges (Monday) 💻
 
 1. [Who Likes It?](https://www.codewars.com/kata/5266876b8f4bf2da9b000362/train/javascript) exercise
-2. [Bit Counting]() exercise
+2. [Bit Counting](https://www.codewars.com/kata/526571aae218b8ee490006f4/train/javascript) exercise
 3. [Your Order, Please]() exercise
 
 <ol>
 
-<li>Who Likes It?</li>
+<li><strong>Who Likes It?</strong></li>
 
 ### Description
 
@@ -108,5 +108,7 @@ function likes(names) {
   }
 }
 ```
+
+<li><strong>Bit Counting</strong></li>
 
 </ol>
