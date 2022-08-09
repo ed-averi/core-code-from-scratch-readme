@@ -130,4 +130,22 @@ def count_bits(n):
 
 ```
 
+```javascript
+//Javascript
+var countBits = function (decimal) {
+  let binnum = decimal.toString(2);
+  let count = 0;
+  for (i = 0; i < binnum.length; i++) {
+    if (binnum[i] === "1") count++;
+  }
+  return count;
+};
+
+//#2
+
+var countBits = function (n) {
+  return n.toString(2).replace(/0/g, "").length;
+};
+```
+
 </ol>
