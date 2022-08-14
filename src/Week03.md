@@ -196,3 +196,61 @@ function getNumber(str) {
 ```
 
 </ol>
+
+## Week challenges (Tuesday) 💻
+
+1. [Simple Pig Latin](.https://www.codewars.com/kata/520b9d2ad5c005041100000f/train/javascript) exercise
+2. [Counting Duplicates](./exercises/e04/desc) exercise
+3. [Decode The Morse Code](./exercises/e05/desc) exercise
+
+<ol>
+
+<li><strong>Simple Pig Latin</strong></li>
+
+### Solution: ✅
+
+```javascript
+function pigIt(str) {
+  //Split string into words and then split it into letters
+  let newArr = [],
+    strArr = str.split(" ");
+
+  strArr.forEach((x) => {
+    //split it now to individual letters
+    let wordArr = x.split("");
+    //console.log(wordArr)
+    /*
+    [ 'P', 'i', 'g' ]
+    [ 'l', 'a', 't', 'i', 'n' ]
+    [ 'i', 's' ]
+    [ 'c', 'o', 'o', 'l' ]
+    [ 'T', 'h', 'i', 's' ]
+    [ 'i', 's' ]
+    [ 'm', 'y' ]
+    [ 's', 't', 'r', 'i', 'n', 'g' ]
+    */
+    wordArr.push(wordArr[0], "ay"), wordArr.shift();
+    //question mark, exclamation mark and dot will be left untouched.
+    if (x === "!" || x === "?" || x === ".") {
+      newArr.push(x);
+    } else {
+      newArr.push(wordArr.join(""));
+    }
+  });
+  return newArr.join(" ");
+}
+```
+
+</ol>
+
+## Week challenges (Wednesday) 💻
+
+1. [Valid Parentheses](./exercises/e06/desc) exercise
+2. [Convert String To Camel Case](./exercises/e07/desc) exercise
+3. [Unique In Order](./exercises/e08/desc) exercise
+
+## Week challenges (Thursday) 💻
+
+1. [Fold An Array](./exercises/e09/desc) exercise
+2. [Encrypt This!](./exercises/e10/desc) exercise
+3. ✨Complete your 1st [**Core Challenge**](https://corecode.notion.site/Mission-Statement-666f515d76084c8e8c996b473b4d6317). This is one of the requirements for the certification, where you'll boost your dev professional-brand.
