@@ -292,7 +292,7 @@ decodeMorse = function (morseCode) {
 
 1. [Valid Parentheses](https://www.codewars.com/kata/52774a314c2333f0a7000688/train/javascript) exercise
 2. [Convert String To Camel Case](https://www.codewars.com/kata/517abf86da9663f1d2000003/train/javascript) exercise
-3. [Unique In Order](./exercises/e08/desc) exercise
+3. [Unique In Order](https://www.codewars.com/kata/54e6533c92449cc251001667/train/javascript) exercise
 
 <ol>
 <li><strong>Valid Parentheses</strong></li>
@@ -340,6 +340,11 @@ function toCamelCase(str) {
     .join("");
 }
 ```
+
+<li><strong>Unique In Order</strong></li>
+<br>
+
+### Solution: ✅
 
 </ol>
 
