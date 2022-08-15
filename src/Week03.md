@@ -243,6 +243,25 @@ function pigIt(str) {
 
 <li><strong>Counting Duplicates</strong></li>
 
+```javascript
+function duplicateCount(text) {
+  //return (text.toLowerCase().split('').sort().join('').match(/([^])\1+/g) || []).length;
+
+  // Ii (case sensitive, son diferentes)
+  // Ii (case insensitive, son igual)
+  let duplicates = 0;
+  text = text.toLowerCase(); // todo minuscula
+  for (let i = 0; i < text.length; i++) {
+    if (text.indexOf(text[i]) !== text.lastIndexOf(text[i])) {
+      duplicates++;
+      text = text.replace(new RegExp(`${text[i]}`, "g"), "");
+      i = i - 1;
+    }
+  }
+  return duplicates;
+}
+```
+
 </ol>
 
 ## Week challenges (Wednesday) 💻
