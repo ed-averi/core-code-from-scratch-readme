@@ -290,7 +290,7 @@ decodeMorse = function (morseCode) {
 
 ## Week challenges (Wednesday) 💻
 
-1. [Valid Parentheses](./exercises/e06/desc) exercise
+1. [Valid Parentheses](https://www.codewars.com/kata/52774a314c2333f0a7000688/train/javascript) exercise
 2. [Convert String To Camel Case](./exercises/e07/desc) exercise
 3. [Unique In Order](./exercises/e08/desc) exercise
 
