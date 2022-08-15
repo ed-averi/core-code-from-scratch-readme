@@ -10,7 +10,31 @@
 
 ## Introduction
 
-<p>Hello there! Use the guide below to access each week</p>
+## Mission Statement
+
+<ol>
+
+<li>Who are you?</li>
+<li>What background do you have?</li>
+<li>Who do you want to be?</li>
+<li>Who do you want to be?</li>
+<li>What are the core values and principles that govern your character and contributions?</li>
+
+</ol>
+
+<br>
+
+> My name is Gerson, and I'm an Operations Team Leader. I have been a leader for more than two years and I have had fun and met great people along the way. I have always wanted to become a programmer when I was first introduced to this beautiful world. I created my first website in 2014. Due to special circumstances I could not continue learning programming. In my new year's resolution I decided that I want to go back to those glorious days of programming.
+
+> For that reason I decided to join core code to learn Javascript, new technologies, meet new colleagues and grow as a developer. I'm a very curious and committed person, who believes that hard work pays off.
+
+<br>
+
+![Quote](https://github-readme-quotes.herokuapp.com/quote?theme=tokyonight&animation=grow_out_in&layout=zues&font=Redressed)
+
+---
+
+<p><strong>Hello there! Use the guide below to access each week</strong></p>
 
 - Week 1 : [Introduction to programming & Javascript](src/Week01.md)
 - Week 2 : [Javascript](src/Week02.md)
