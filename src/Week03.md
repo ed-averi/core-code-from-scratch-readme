@@ -31,7 +31,7 @@
 
 1. [Who Likes It?](https://www.codewars.com/kata/5266876b8f4bf2da9b000362/train/javascript) exercise
 2. [Bit Counting](https://www.codewars.com/kata/526571aae218b8ee490006f4/train/javascript) exercise
-3. [Your Order, Please]() exercise
+3. [Your Order, Please](https://www.codewars.com/kata/55c45be3b2079eccff00010f/train/javascript) exercise
 
 <ol>
 
