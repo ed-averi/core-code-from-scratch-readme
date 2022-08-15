@@ -294,6 +294,32 @@ decodeMorse = function (morseCode) {
 2. [Convert String To Camel Case](./exercises/e07/desc) exercise
 3. [Unique In Order](./exercises/e08/desc) exercise
 
+<ol>
+<li><strong>Valid Parentheses</strong></li>
+
+```javascript
+function validParentheses(parens) {
+  let openNum = 0;
+  for (let i = 0; i < parens.length; i++) {
+    if (parens.charAt(i) == "(") {
+      openNum += 1;
+    } else {
+      openNum -= 1;
+    }
+  }
+  if (openNum < 0) {
+    return false;
+  }
+  if (openNum === 0) {
+    return true;
+  } else {
+    return false;
+  }
+}
+```
+
+</ol>
+
 ## Week challenges (Thursday) 💻
 
 1. [Fold An Array](./exercises/e09/desc) exercise
