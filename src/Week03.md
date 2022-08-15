@@ -306,9 +306,9 @@ function validParentheses(parens) {
     } else {
       openNum -= 1;
     }
-  }
-  if (openNum < 0) {
-    return false;
+    if (openNum < 0) {
+      return false;
+    }
   }
   if (openNum === 0) {
     return true;
