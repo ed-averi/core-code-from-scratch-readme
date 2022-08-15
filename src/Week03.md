@@ -291,11 +291,14 @@ decodeMorse = function (morseCode) {
 ## Week challenges (Wednesday) 💻
 
 1. [Valid Parentheses](https://www.codewars.com/kata/52774a314c2333f0a7000688/train/javascript) exercise
-2. [Convert String To Camel Case](./exercises/e07/desc) exercise
+2. [Convert String To Camel Case](https://www.codewars.com/kata/517abf86da9663f1d2000003/train/javascript) exercise
 3. [Unique In Order](./exercises/e08/desc) exercise
 
 <ol>
 <li><strong>Valid Parentheses</strong></li>
+<br>
+
+### Solution: ✅
 
 ```javascript
 function validParentheses(parens) {
@@ -315,6 +318,26 @@ function validParentheses(parens) {
   } else {
     return false;
   }
+}
+```
+
+<li><strong>Convert String To Camel Case</strong></li>
+<br>
+
+### Solution: ✅
+
+```javascript
+function toCamelCase(str) {
+  str = str.split("");
+  return str
+    .map(function (el, i) {
+      if (el == "-" || el == "_") {
+        el = str[i + 1].toUpperCase();
+        str.splice(i + 1, 1);
+      }
+      return el;
+    })
+    .join("");
 }
 ```
 
