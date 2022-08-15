@@ -363,7 +363,7 @@ function uniqueInOrder(input) {
 ## Week challenges (Thursday) 💻
 
 1. [Fold An Array](https://www.codewars.com/kata/57ea70aa5500adfe8a000110/train/javascript) exercise
-2. [Encrypt This!](./exercises/e10/desc) exercise
+2. [Encrypt This!](https://www.codewars.com/kata/5848565e273af816fb000449/train/javascript) exercise
 3. ✨Complete your 1st [**Core Challenge**](https://corecode.notion.site/Mission-Statement-666f515d76084c8e8c996b473b4d6317). This is one of the requirements for the certification, where you'll boost your dev professional-brand.
 
 <ol>
@@ -380,6 +380,32 @@ function foldArray(a, n) {
   while (c.length) r.push(c.pop() + (c.shift() || 0));
   return n - 1 ? foldArray(r, n - 1) : r;
 }
+```
+
+<li><strong>Encrypt This!</strong></li>
+<br>
+
+### Solution: ✅
+
+```javascript
+function encrypt(word) {
+  if (word.length === 1) return `${word.charCodeAt(0)}`;
+  const charBackup = word[1];
+  word = word.replace(word[0], word.charCodeAt(0));
+  word = word.replace(charBackup, word[word.length - 1]);
+  word = word.replace(/\w$/, charBackup);
+  return word;
+}
+
+var encryptThis = function (text) {
+  const textArray = text.split(" ");
+  let result = "";
+  textArray.forEach((w) => {
+    // result = `${result === '' ? '' : `${result} `}${encrypt(w)}`;
+    result = `${result} ${encrypt(w)}`;
+  });
+  return result.trim();
+};
 ```
 
 </ol>
