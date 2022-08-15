@@ -241,6 +241,8 @@ function pigIt(str) {
 }
 ```
 
+<li><strong>Counting Duplicates</strong></li>
+
 </ol>
 
 ## Week challenges (Wednesday) 💻
