@@ -346,6 +346,18 @@ function toCamelCase(str) {
 
 ### Solution: ✅
 
+```javascript
+function uniqueInOrder(input) {
+  var result = [];
+  for (var i = 0; i < input.length; i++) {
+    if (input[i] !== result[result.length - 1]) {
+      result.push(input[i]);
+    }
+  }
+  return result;
+}
+```
+
 </ol>
 
 ## Week challenges (Thursday) 💻
