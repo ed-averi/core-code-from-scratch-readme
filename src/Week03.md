@@ -362,6 +362,24 @@ function uniqueInOrder(input) {
 
 ## Week challenges (Thursday) 💻
 
-1. [Fold An Array](./exercises/e09/desc) exercise
+1. [Fold An Array](https://www.codewars.com/kata/57ea70aa5500adfe8a000110/train/javascript) exercise
 2. [Encrypt This!](./exercises/e10/desc) exercise
 3. ✨Complete your 1st [**Core Challenge**](https://corecode.notion.site/Mission-Statement-666f515d76084c8e8c996b473b4d6317). This is one of the requirements for the certification, where you'll boost your dev professional-brand.
+
+<ol>
+
+<li><strong>Fold An Array</strong></li>
+<br>
+
+### Solution: ✅
+
+```javascript
+function foldArray(a, n) {
+  const r = [],
+    c = a.slice();
+  while (c.length) r.push(c.pop() + (c.shift() || 0));
+  return n - 1 ? foldArray(r, n - 1) : r;
+}
+```
+
+</ol>
