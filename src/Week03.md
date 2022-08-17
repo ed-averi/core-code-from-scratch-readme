@@ -199,7 +199,7 @@ function getNumber(str) {
 
 ## Week challenges (Tuesday) 💻
 
-1. [Simple Pig Latin](.https://www.codewars.com/kata/520b9d2ad5c005041100000f/train/javascript) exercise
+1. [Simple Pig Latin](https://www.codewars.com/kata/520b9d2ad5c005041100000f/train/javascript) exercise
 2. [Counting Duplicates](https://www.codewars.com/kata/54bf1c2cd5b56cc47f0007a1/train/javascript) exercise
 3. [Decode The Morse Code](https://www.codewars.com/kata/54b724efac3d5402db00065e/train/javascript) exercise
 
