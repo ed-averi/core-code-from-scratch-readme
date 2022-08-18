@@ -17,8 +17,17 @@
 ## Week subtopics
 
 - What is npm?
+
+> > npm is two things: first and foremost, it is an online repository for the publishing of open-source Node.js projects; second, it is a command-line utility for interacting with said repository that aids in package installation, version management, and dependency management.
+
 - package.json
+
+> > The package.json file is the heart of Node.js system. It is the manifest file of any Node.js project and contains the metadata of the project. The package.json file is the essential part to understand, learn and work with the Node.js. It is the first step to learn about development in Node.js.
+
 - What is npx?
+
+> > NPX is an NPM package runner that makes it really easy to install any sort of node executable that would have normally been installed using NPM.
+
 - What is Typescript?
 - Relation between Typescript and Javascript
 - Typescript Hello World
