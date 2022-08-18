@@ -67,7 +67,7 @@ function multiply(a, b) {
 }
 ```
 
-  <li>ASCII Total</li>
+  <li><strong>ASCII Total</strong></li>
  
  ### C#
  ```c#
