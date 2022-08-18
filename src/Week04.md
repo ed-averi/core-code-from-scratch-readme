@@ -64,7 +64,7 @@
 
 ## Extra (It is not mandatory for the Readme) ⭐
 
-1. [Simple Validation Of A Username](./exercises/e00/desc) exercise
-2. [Get Number From String](./exercises/e01/desc) exercise
-3. [String Cleaning](./exercises/e02/desc) exercise
-4. [Password Validation](./exercises/e03/desc) exercise
+1. [Simple Validation Of A Username](https://www.codewars.com/kata/56a3f08aa9a6cc9b75000023/train/javascript) exercise
+2. [Get Number From String](https://www.codewars.com/kata/57a37f3cbb99449513000cd8/train/javascript) exercise
+3. [String Cleaning](https://www.codewars.com/kata/57e1e61ba396b3727c000251/train/javascript) exercise
+4. [Password Validation](https://www.codewars.com/kata/52e1476c8147a7547a000811/train/javascript) exercise
