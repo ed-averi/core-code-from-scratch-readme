@@ -27,9 +27,17 @@
 
 1. Time to catch up ⏱️ or do extra work ⭐
 
+<img src="https://media0.giphy.com/media/Zwg8rX46IQhxNSMXv4/giphy.gif?cid=ecf05e47qk2mwgbrh6fg1ft1dcqb7m2w6vqloplw4epfjpcb&rid=giphy.gif&ct=g"/>
+
+<br>
+
 ## Week challenges (Tuesday) 💻
 
 1. Time to catch up ⏱️ or do extra work ⭐
+
+<img src="https://media1.giphy.com/media/FcT1BFYoHwJxu/giphy.gif?cid=ecf05e473gsykey1lzua30hqme3lyetz5q4qnxzdz73molaj&rid=giphy.gif&ct=g" />
+
+<br>
 
 ## Week challenges (Wednesday) 💻
 
