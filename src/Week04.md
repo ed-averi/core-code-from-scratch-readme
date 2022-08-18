@@ -52,6 +52,8 @@
 
 <img  src= "../assets/482ff37c43387b76de1161edb4d04977.gif"/>
 
+<br>
+
 ## Week challenges (Thursday) 💻
 
 1. ✨Complete your 2nd [**Core Challenge**](https://corecode.notion.site/LinkedIn-Boost-5974abb0f917458ea235d3288ac6c7d3). This is one of the requirements for the certification, where you'll boost your dev professional-brand.
