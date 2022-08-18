@@ -56,6 +56,10 @@
 
 1. ✨Complete your 2nd [**Core Challenge**](https://corecode.notion.site/LinkedIn-Boost-5974abb0f917458ea235d3288ac6c7d3). This is one of the requirements for the certification, where you'll boost your dev professional-brand.
 
+<img src="https://i.giphy.com/media/3o7btNa0RUYa5E7iiQ/giphy.webp" />
+
+<br>
+
 ## Extra (It is not mandatory for the Readme) ⭐
 
 1. [Simple Validation Of A Username](./exercises/e00/desc) exercise
