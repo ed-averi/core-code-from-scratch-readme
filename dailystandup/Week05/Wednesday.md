@@ -33,4 +33,4 @@ for (const chr of smt) {
 }
 ```
 
-<img src="../assets/filterwords.jpg" />
+<img src="https://github.com/ed-averi/core-code-from-scratch-readme/blob/main/assets/filterwords.jpg?raw=true"/>
