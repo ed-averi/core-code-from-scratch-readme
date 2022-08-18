@@ -52,7 +52,7 @@
 
 ## Extra (It is not mandatory for the Readme) ⭐
 
-1. [Find The Missing Letter](./exercises/e00/desc) exercise
-2. [Reverse Or Rotate?](./exercises/e01/desc) exercise
-3. [What's Your Poison?](./exercises/e02/desc) exercise
-4. [Array.diff](./exercises/e03/desc) exercise
+1. [Find The Missing Letter](https://www.codewars.com/kata/5839edaa6754d6fec10000a2/train/javascript) exercise
+2. [Reverse Or Rotate?](https://www.codewars.com/kata/56b5afb4ed1f6d5fb0000991/train/javascript) exercise
+3. [What's Your Poison?](https://www.codewars.com/kata/58c47a95e4eb57a5b9000094/train/javascript) exercise
+4. [Array.diff](https://www.codewars.com/kata/523f5d21c841566fde000009/train/javascript) exercise
