@@ -19,7 +19,21 @@ console.log(nEvens);
 Pig Latin Kata Challenge //
 
 ```javascript
+//solutions shared in the standup
 function pigIt(str) {
-  const words = str.split(" ");
+  // Ingrid
+  //return str.replace(/(\w)(\w*)(\s|$)/g, `$2$1ay$3`);
+  // Eli
+  //   str = str.split(" ");
+  //   let strChange = '';
+  //   let regx = (/([a-zA-Z])/);
+  //   for (let i = 0; i < str.length; i++) {
+  //     if (regx.test(str[i])) {
+  //       strChange += str[i].slice(1).concat(str[i].slice(0, 1)).concat("ay ");
+  //     } else {
+  //       strChange += str[i];
+  //     }
+  //   }
+  //   return strChange.trim();
 }
 ```
