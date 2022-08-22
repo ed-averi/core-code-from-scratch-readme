@@ -28,18 +28,24 @@
 - Classes with Typescript
 - Concept of instance
 
+---
+
 ## Week challenges (Monday) 💻
 
 1. [Declare variable types in TypeScript](https://docs.microsoft.com/en-us/learn/modules/typescript-declare-variable-types/) guided exercise, using `Typescript`
 2. [TypeScript Object Type](https://typescript-exercises.github.io/#exercise=1) exercise
 3. [TypeScript Unions](https://typescript-exercises.github.io/#exercise=2) exercise
 
+---
+
 ## Week challenges (Tuesday) 💻
 
-1. [Square(n) Sum](./exercises/e00/desc) exercise, using `Typescript`
-2. [Growth Of A Population](./exercises/e01/desc) exercise, using `Typescript`
-3. [Mumbling](./exercises/e02/desc) exercise, using `Typescript`
-4. [A Wolf In Sheep's Clothing](./exercises/e03/desc) exercise, using `Typescript`
+1. [Square(n) Sum](https://www.codewars.com/kata/515e271a311df0350d00000f/train/typescript) exercise, using `Typescript`
+2. [Growth Of A Population](https://www.codewars.com/kata/563b662a59afc2b5120000c6/train/typescript) exercise, using `Typescript`
+3. [Mumbling](https://www.codewars.com/kata/5667e8f4e3f572a8f2000039/train/typescript) exercise, using `Typescript`
+4. [A Wolf In Sheep's Clothing](https://www.codewars.com/kata/5c8bfa44b9d1192e1ebd3d15/train/typescript) exercise, using `Typescript`
+
+---
 
 ## Week challenges (Wednesday) 💻
 
@@ -48,6 +54,8 @@
 3. [Valid Braces](./exercises/e06/desc) exercise, using `Typescript`
 4. [Tic-Tac-Toe](./exercises/e07/desc) exercise, using `Javascript`
 5. [Tic-Tac-Toe-Like Table Generator](./exercises/e08/desc) exercise, using `Javascript`
+
+---
 
 ## Week challenges (Thursday) 💻
 
