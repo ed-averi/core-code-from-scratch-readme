@@ -5,4 +5,4 @@ Object Oriented Programming.
 3. Inheritance
 4. Polymorphism
 
-<img src="" />
+<img src="https://raw.githubusercontent.com/ed-averi/core-code-from-scratch-readme/main/assets/pillars.jpg" />
