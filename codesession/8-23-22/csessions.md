@@ -8,3 +8,5 @@
 <img src="https://raw.githubusercontent.com/ed-averi/core-code-from-scratch-readme/main/assets/pillars.jpg" />
 
 ### Classes
+
+<img src="https://raw.githubusercontent.com/ed-averi/core-code-from-scratch-readme/main/assets/classes.jpg" />
