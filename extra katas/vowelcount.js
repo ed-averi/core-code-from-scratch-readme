@@ -33,3 +33,52 @@ function getCount(str) {
    
     return vowelsCount;
   }
+
+//Solution #2
+/**
+ * It loops through the string and checks if each character is a vowel. If it is, it adds one to the
+ * vowel count.
+ * @param str - the string we want to count the vowels in
+ * @returns The number of vowels in the string.
+ */
+  function getCount(str) {
+    var vowelsCount = 0;
+    var vowels = ["a","e","i","o","u"];
+    for(var i = 0;i < str.length;i++){
+      for(var j=0;j<vowels.length;j++){
+        if(str[i] === vowels[j]){
+          vowelsCount++;
+        }
+      }
+    }
+    
+    return vowelsCount;
+  }
+
+  // Solution #3
+  //https://youtu.be/zFhhf7XzhYo
+
+/**
+ * It loops through the string and checks if the character is a vowel. If it is, it increments the
+ * counter
+ * @param str - the string to search
+ * @returns The number of vowels in the string.
+ */
+  function getCount(str){
+    let vowelsCount= 0;
+
+    for(let i = 0; i <str.length; i++){
+        switch (str[i]){
+            case 'a':
+            case 'e':
+            case 'i':
+            case 'o':
+            case 'u':
+                vowelsCount++;
+                break;
+                default:
+                break;
+        }
+    }
+   return vowelsCount;
+  }
