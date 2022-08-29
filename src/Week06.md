@@ -86,9 +86,7 @@ Don't forget to convert the percent parameter as a percentage in the body of you
 
 ### Solution: ✅
 
-<details>
-[Click here](../solutions/week06/ts/growthofapopulation.ts)
-</details>
+### [Click here](../solutions/week06/ts/growthofapopulation.ts)
 
 <br>
 
