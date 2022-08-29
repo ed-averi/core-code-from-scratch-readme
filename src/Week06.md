@@ -32,10 +32,10 @@
 
 ## Week challenges (Monday) 💻
 
-| Link                                                                                                                         | Solution                                               |     |
-| ---------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------ | --- |
+| Link                                                                                                                         | Solution                                               |                                            |
+| ---------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------ | ------------------------------------------ |
 | 1. [Declare variable types in TypeScript](https://docs.microsoft.com/en-us/learn/modules/typescript-declare-variable-types/) | ✅                                                     |
-| 2. [TypeScript Object Type](https://typescript-exercises.github.io/#exercise=1)                                              | [Typescript](../solutions/week06/ts/objectexercise.ts) |
+| 2. [TypeScript Object Type](https://typescript-exercises.github.io/#exercise=1)                                              | [Typescript](../solutions/week06/ts/objectexercise.ts) | [Python](../solutions/week06/py/sample.py) |
 | 3. [TypeScript Unions](https://typescript-exercises.github.io/#exercise=2)                                                   | Typescript                                             |
 
 ---
