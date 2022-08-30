@@ -50,7 +50,7 @@
 <ol>
 
 <li>Square(n) Sum</li>
-<li>Growth Of A Population</li>
+<li><strong>Growth Of A Population</strong></li>
 
 ### Description
 
