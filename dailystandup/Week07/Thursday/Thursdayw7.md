@@ -20,3 +20,12 @@ return `Oi! Sheep number ${
   queue.length - wolf
 }! You are about to be eatn by a wolf`;
 ```
+
+```typescript
+const numbers: number[] = [1, 2, 3, 4, 5, 6, 7, 8];
+
+let n: number = 3;
+
+console.log(numbers[++n]);
+console.log(numbers[n++]);
+```
