@@ -42,10 +42,10 @@
 
 ## Week challenges (Tuesday) 💻
 
-1. [Square(n) Sum](https://www.codewars.com/kata/515e271a311df0350d00000f/train/typescript) exercise, using `Typescript`
-2. [Growth Of A Population](https://www.codewars.com/kata/563b662a59afc2b5120000c6/train/typescript) exercise, using `Typescript`
-3. [Mumbling](https://www.codewars.com/kata/5667e8f4e3f572a8f2000039/train/typescript) exercise, using `Typescript`
-4. [A Wolf In Sheep's Clothing](https://www.codewars.com/kata/5c8bfa44b9d1192e1ebd3d15/train/typescript) exercise, using `Typescript`
+1. [Square(n) Sum](https://www.codewars.com/kata/515e271a311df0350d00000f/train/typescript) exercise, using `Typescript` <strong>Mantadory</strong>
+2. [Growth Of A Population](https://www.codewars.com/kata/563b662a59afc2b5120000c6/train/typescript) exercise, using `Typescript` <strong>Optional</strong>
+3. [Mumbling](https://www.codewars.com/kata/5667e8f4e3f572a8f2000039/train/typescript) exercise, using `Typescript` <strong>Optional</strong>
+4. [A Wolf In Sheep's Clothing](https://www.codewars.com/kata/5c8bfa44b9d1192e1ebd3d15/train/typescript) exercise, using `Typescript` <strong>Mantadory</strong>
 
 <ol>
 
