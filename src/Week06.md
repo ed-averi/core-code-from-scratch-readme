@@ -124,6 +124,12 @@ Output: "Pls go away and stop eating my sheep"
 
 ```
 
+### Solution: ✅
+
+|                         #1                          |     #2     |                         #3                          |
+| :-------------------------------------------------: | :--------: | :-------------------------------------------------: |
+| [Typescript](../solutions/week06/ts/wolfinsheep.ts) | [Python]() | [Javascript](../solutions/week06/js/wolfinsheep.js) |
+
 </ol>
 
 ---
