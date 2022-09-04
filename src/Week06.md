@@ -211,6 +211,14 @@ thirt(321) calculates 48, 48 and returns 48
 
 </details>
 
+<br>
+
+### Solution: ✅
+
+| #1                                                           | #2  | #3  |
+| ------------------------------------------------------------ | --- | --- |
+| [Typescript](../solutions/week06/ts/divisiliby%20by%2013.ts) |     |     |
+
 </ol>
 
 ---
