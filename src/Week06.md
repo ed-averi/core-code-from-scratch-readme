@@ -261,9 +261,9 @@ dig_pow(46288, 3) should return 51 since 4³ + 6⁴+ 2⁵ + 8⁶ + 8⁷ =
 
 ### Solution: ✅
 
-| #1                                                        | #2  | #3  |
-| --------------------------------------------------------- | --- | --- |
-| [Javascript](../solutions/week06/js/playingwithdigits.js) |     |     |
+| #1                                                        | #2                                                        | #3  |
+| --------------------------------------------------------- | --------------------------------------------------------- | --- |
+| [Javascript](../solutions/week06/js/playingwithdigits.js) | [Typescript](../solutions/week06/ts/playingwithdigits.ts) |     |
 
 <br>
 
