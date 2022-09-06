@@ -47,7 +47,8 @@ export function inArray(a1: string[], a2: string[]): string[] {
 //  }.sort());
 }
 
-//in case duplicates, use set, new array of unique value
+//in case duplicates, use set, new set of unique value, it removes duplicates
+//https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set
 return [... new Set (a1).filter]((sub)=>{
     let result= a2.find((str)=> str.includes(sub))'
     return result !== undefined;
