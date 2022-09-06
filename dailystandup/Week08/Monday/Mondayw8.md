@@ -30,9 +30,65 @@ Possible Solution
 ```ts
 export function inArray(a1: string[], a2: string[]): string[] {
   throw new Error("TODO");
+
+  /*
+  1. Recorrer a1
+  1.1 Mientras recorro a1, filtro los elementos de a1
+  1.1.1 Filtrar:
+  1.1.1.1 Se quedan los elementos que son un substring de un string en a2
+  1.1.2 Sort sobre arreglo filtrado
+  1.1.3 Return de arreglo filtrado
+
+  */
+
+//  return a1.filter((sub)=>{
+//     let result= a2.find((str)=> str.includes(sub))'
+//     return result !== undefined;
+//  }.sort());
 }
 
-//   a1 = ["live", "strong", "lyal", "lysh", "arp"]
-//   a2:string[] = ["lively", "alive", "harp", "sharp", "armstrong"]
-// r = ["live", "strong", "arp"] ==> ["arp","live", "strong" ]
+//in case duplicates, use set, new array of unique value
+return [... new Set (a1).filter]((sub)=>{
+    let result= a2.find((str)=> str.includes(sub))'
+    return result !== undefined;
+ }.sort());
+}
+
+
+//var a1 = ["live", "strong", "lyal", "lysh", "arp"]
+//var a2:string[] = ["lively", "alive", "harp", "sharp", "armstrong"]
+//   r = ["live", "strong", "arp"] ==> ["arp","live", "strong" ]
+
+
+//Javscript filter
+
+const n=[1,2,3,4,5,6,7,8,9,10];
+
+const even =n.filter ((num)=> num%2 ===0)'
+console.log(even); [;2,4,6,8,10]
+// what if there is no %2 in the array
+
+const n= [1,,3,,5,,7,,9,];
+const even =n.filter ((num)=> num%2 ===0)'
+console.log(even); // result empty string[]
+
+//include
+
+const str1= 'armstrong';
+const str2= 'strong';
+
+console.log(str1.includes(str2)); // true
+
+const arr1=["lively", "alive", "harp", "sharp", "armstrong"];
+console.log(arr1.find((str)=> str.includes(str))); // "armstrong"
+
+let result2= undefined;
+for(let i =0; i<arr1.length; i++){
+    if(arr1[i].includes(str2)){
+        result2=arr1[i];
+        break;
+    }
+}
+console.log(retulst2); 'armstrong'
+
 ```
