@@ -275,7 +275,7 @@ dig_pow(46288, 3) should return 51 since 4³ + 6⁴+ 2⁵ + 8⁶ + 8⁷ =
 
 1. [Declare and instantiate classes in TypeScript](https://docs.microsoft.com/en-us/learn/modules/typescript-declare-instantiate-classes/) guided exercise, using `Typescript`
 2. [Tile](https://github.com/corecodeio/devguide-fundamentals-2022-03/tree/main/src/technologies/2022/week06/exercises/e09/desc) exercise, using `Typescript`
-3. [Time](./exercises/e10/desc) exercise, using `Typescript`
+3. [Time](https://github.com/corecodeio/devguide-fundamentals-2022-03/tree/main/src/technologies/2022/week06/exercises/e10/desc) exercise, using `Typescript`
 4. [Rational](./exercises/e11/desc) exercise, using `Typescript`
 
 <ol>
