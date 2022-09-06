@@ -65,13 +65,13 @@ return [... new Set (a1)].filter]((sub)=>{
 
 const n=[1,2,3,4,5,6,7,8,9,10];
 
-const even =n.filter ((num)=> num%2 ===0)'
-console.log(even); [;2,4,6,8,10]
-// what if there is no %2 in the array
+const even =n.filter ((num)=> num%2 ===0);
+console.log(even); //[;2,4,6,8,10]
+// what if there is no %2
 
-const n= [1,,3,,5,,7,,9,];
-const even =n.filter ((num)=> num%2 ===0)'
-console.log(even); // result empty string[]
+const n= [1,3,5,7,9];
+const even =n.filter ((num)=> num%2 ===0);
+console.log(even); // result empty []
 
 //include
 
@@ -90,6 +90,6 @@ for(let i =0; i<arr1.length; i++){
         break;
     }
 }
-console.log(retulst2); 'armstrong'
+console.log(result2); 'armstrong'
 
 ```
