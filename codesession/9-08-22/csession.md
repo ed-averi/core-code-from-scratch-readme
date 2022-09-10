@@ -1,4 +1,4 @@
-Programacion generica
+## Programacion generica
 
 ```ts
 export default class Box<T> {
