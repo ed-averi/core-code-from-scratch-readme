@@ -349,7 +349,35 @@ main.start();
 ### Solution: ✅
 
 ```ts
+//import Time from './Time';
+export default class Time {
+  hour:number;
+  minute:number;
+  second:number;
 
+constructor(hour:number, minute: number, second: number){
+    this.hour=hour;
+    this.minute=minute;
+    this.second= second;
+
+}
+
+  printTime () {
+    //const t = new Time(10, 45, 1);
+    console.log(`
+          =========================
+            Hours: ${this.hour}
+            Minutes: ${this.minute}
+            Seconds: ${this.second}
+          =========================
+    `);
+    }
+    getInSeconds(): number{
+    const minutes= this.hour * 60 + this minute;
+    return minutes * 60 + this.second;
+    console.log(getInSeconds()); // 38701
+  }
+}
 ```
 
 </ol>
