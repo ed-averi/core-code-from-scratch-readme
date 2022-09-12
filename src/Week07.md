@@ -33,8 +33,42 @@
 
 ## Week challenges (Monday) 💻
 
-2. Watch [Object Oriented Programming - The Four Pillars of OOP](https://www.youtube.com/watch?v=1ONhXmQuWP8)
-3. [Readme - OOP](./exercises/e01/desc) exercise
+2. Watch [Object Oriented Programming - The Four Pillars of OOP](https://www.youtube.com/watch?v=1ONhXmQuWP8) ✅
+3. [Readme - OOP](https://github.com/corecodeio/devguide-fundamentals-2022-03/tree/main/src/technologies/2022/week07/exercises/e01/desc) exercise
+
+<ol>
+
+<li><strong><i>Readme - OOP</i></strong></li>
+
+## Description
+
+In your Readme or in a `md` file, you are going to create a OOP glossary, for this you are requested to first create a space of key-words, this would be the list for the key-words:
+
+1. Abstraction
+2. Inheritance
+3. Polymorphism
+4. Encapsulation
+5. Class
+6. Object
+7. Instance
+8. Interface
+9. Access Modifiers
+10. Constructors
+
+After that you would have a section called `Example`, here you would create a guide showing an example on how to use OOP in typescript, for now your example should show the use of classes, objects, encapsulation, access modifiers, instances and interfaces. Feel free to create a new guide or you can copy a guide from the web. The idea is to practice the [Rubber duck technique](https://www.linkedin.com/pulse/talk-duck-christina-cece-geijer) so this `Example` section should be written in your own words.
+
+You can take inspirations on how to create a guide:
+
+1. [Here](https://serokell.io/blog/why-typescript)
+2. [Here](https://ultimatecourses.com/blog/typescript-interfaces-vs-types)
+3. [Here](https://blog.learncodeonline.in/introduction-to-typescript)
+4. Search in Google!
+
+## Tip
+
+If you want to record your terminal and then upload a gif of the recording, we recommend you [this](https://www.screentogif.com/) tool or [this](https://github.com/phw/peek) if you have a linux distro.
+
+</ol>
 
 ## Week challenges (Tuesday) 💻
 
