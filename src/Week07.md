@@ -31,6 +31,7 @@
   - protected
 - Interfaces
 
+***
 ## Week challenges (Monday) 💻
 
 2. Watch [Object Oriented Programming - The Four Pillars of OOP](https://www.youtube.com/watch?v=1ONhXmQuWP8) ✅
@@ -68,8 +69,25 @@ You can take inspirations on how to create a guide:
 
 If you want to record your terminal and then upload a gif of the recording, we recommend you [this](https://www.screentogif.com/) tool or [this](https://github.com/phw/peek) if you have a linux distro.
 
+## Solution: ✅ 
+
+<ul>
+<li>Abstraction:</li> <p><i>In simple terms, it “displays” only the relevant attributes of objects and “hides” the unnecessary details.</i></p>
+<li>Inheritance</li><p><i>Is the ability of a program to create new classes from an existing class, or in other words, code reusability.</i></p>
+<li>Polymorphism</li><p><i>Polymorphism is the ability to create a class that has more than one form. Or in other words, classes have the same methods but different implementations.</i></p>
+<li>Encapsulation</li><p><i>It enables you to perform what's called “data hiding”. It's necessary to hide certain data so that it's not changed accidentally or purposefully by other components or code in the program.</i></p>
+<li>Class</li><p><i>Is a blueprint for creating objects (a particular data structure), providing initial values for state (member variables or attributes), and implementations of behavior (member functions or methods). The user-defined objects are created using the class keyword. Or to put it simple, <strong style="text-transform:uppercase"><u>a set of instructions</u></strong>.</i></p>
+<li>Object</li><p><i>Is the type of all non-primitive values (primitive values are undefined , null , booleans, numbers, bigints, strings). With this type, we can't access any properties of a value. In other words, it contains the properties or characteristics</i></p>
+<li>Instance</li><p><i> Is one occurrence of a class or object. For example, a program may have a class/object named Animal, but there could be many instances of Animal, such as lion, cat, and dog</i></p>
+<li>Interface</li><p><i>It is a concept of abstraction and encapsulation. For a given "box", it declares the "inputs" and "outputs" of that box. </i></p>
+<li>Access Modifiers</li><p><i>It changes the visibility of the properties and methods of a class.</i></p>
+<li>Constructors</li><p><i>A method that is called when we create an instance of a class.</i></p>
+</ul>
+
 </ol>
 
+
+***
 ## Week challenges (Tuesday) 💻
 
 1. [Input/Output](./exercises/e00/desc) playground, using `Typescript`
