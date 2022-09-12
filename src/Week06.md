@@ -425,7 +425,47 @@ main.start();
 ## Solution: ✅
 
 ```ts
+//import Rational from './Rational';
+export default class Rational {
+  numerator: number;
+  denominator: number;
 
+  constructor(numerator: number, denominator: number) {
+    this.numerator = numerator;
+    this.denominator = denominator;
+  }
+
+  //Write a method called printRational that prints the object in some reasonable format.
+  printRational() {
+    console.log(`${this.numerator} ${this.denominator}`);
+  }
+
+  //Write a method called printRational that prints the object in some reasonable format.
+  //https://www.codegrepper.com/code-examples/javascript/swap+two+number+in+javascript
+  invert() {
+    [this.numerator, this.denominator] = [this.denominator, this.numerator];
+  }
+
+  //Write a method called toFloat that converts the rational number to a floating-point number and returns the result.
+  //This method is a pure function it does not modify the object.
+  toFloat(): number {
+    return this.numerator / this.denominator;
+  }
+
+  //Write method named reduce that reduces a rational number to its lowest terms by finding the greatest common divisor (GCD) of the numerator and denominator and dividing through.
+  //This method should modify the instance variables. To calculate the GCD you can search for Euclidian Algorithm: GCD.
+
+  gcd(n: number, d: number): number {
+    if (d == 0) return n;
+    return this.gcd(d, n % d);
+  }
+
+  reduce() {
+    const gcd = this.gcd(this.numerator, this.denominator);
+    this.numerator = this.numerator / gcd;
+    this.denominator = this.denominator / gcd;
+  }
+}
 ```
 
 </ol>
