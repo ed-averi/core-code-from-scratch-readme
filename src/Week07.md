@@ -84,6 +84,53 @@ If you want to record your terminal and then upload a gif of the recording, we r
 <li>Constructors</li><p><i>A method that is called when we create an instance of a class.</i></p>
 </ul>
 
+## Example
+
+- Class  
+```ts
+class Employee {
+    id: number;
+    firstName: string;
+    lastName: string;
+
+    constructor(id: number, firstName: string, lastName: string) {
+        this.id = id;
+        this.firstName = firstName;
+        this.lastName = lastName;
+    }
+
+    getFullName() {
+        return this.firstName + ' ' + this.lastName;
+    }
+}
+
+// create Employee class object
+let employee = new Employee(100, 'Ramesh', 'Fadatare');
+console.log(employee);
+console.log(employee.getFullName());
+```
+- Objects
+```ts
+class Employee{
+    id: number;
+    firstName: string;
+    lastName: string;
+}
+
+// create Employee class object
+let employee = new Employee();
+
+employee.id = 100;
+employee.firstName = 'Ramesh';
+employee.lastName = 'Fadatare';
+
+console.log(employee);
+```
+- Encapsulation
+- Access Modifiers
+- Interfaces
+- Instances
+
 </ol>
 
 
