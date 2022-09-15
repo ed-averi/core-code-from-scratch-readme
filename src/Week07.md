@@ -246,7 +246,7 @@ class Person {
 1. [Input/Output](./exercises/e00/desc) playground, using `Typescript`
 
 
-
+<img src="https://raw.githubusercontent.com/ed-averi/core-code-from-scratch-readme/main/assets/wshell.jpg">
 
 <!--
 1. [Movies](./exercises/e03/desc) exercise, using `Typescript`
