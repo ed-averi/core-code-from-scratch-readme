@@ -127,9 +127,115 @@ employee.lastName = 'Fadatare';
 console.log(employee);
 ```
 - Encapsulation
+
+```ts
+export class User {
+    private _password: string; 
+
+    constructor(_password: string) {
+        this._password = _password;
+    }
+
+    get password(): string {
+        return this._password;
+    }
+
+    set password(password: string) {
+        this._password = password;
+    }
+
+    givePass(): string {
+        return `I don't want to do that outside of this class`;
+    }
+
+}
+
+let gerson : User = new User('Gerson');
+console.log(gerson._password)
+
+//log Error Property '_password' is private and only accessible within class 'User'.
+```
 - Access Modifiers
+```ts
+//Access Modifiers in Typescript
+/*
+Public => by default all members(properties/fields and methods/functions) of classes are Public - accesible internatlly and externally from outside of the class.
+Private => Private members can not be accesible from outside of the calss. It can be accessible only internally within the class. 
+Protected=> Protected members are accesible only internally within the calss or any class that extends it but not externally.  
+*/
+
+class Point{
+  private a: number; // 'a' is private member of class
+  : number; // 'b' is public member of class
+
+  constructor (a?: number, b?: number) {
+  this.a = a;
+  this.b = b;
+}
+
+// this method is private member of class
+  private drawNewLine = () => {
+  / all the logics to draw a line comes here
+  using ' this' operator
+  console. log('a: ' + this.a + ', b: ' + this.b);
+};
+}
+
+// create a point object
+let point = new Point(1, 2); // passing value of param 'a' and 'b'
+point. a = 3; //
+is private and not accessible from outside of the class
+point. b = 4;
+s can be accessd - we can change val
+se 16' is pub
+point. drawNewLine(); // >method 'drawNewLine' is private and only accessible within class 'Point"
+
+```
+
 - Interfaces
+
+```ts
+interface IPerson { 
+   firstName:string, 
+   lastName:string, 
+   sayHi: ()=>string 
+} 
+
+var customer:IPerson = { 
+   firstName:"Tom",
+   lastName:"Hanks", 
+   sayHi: ():string =>{return "Hi there"} 
+} 
+
+console.log("Customer Object ") 
+console.log(customer.firstName) 
+console.log(customer.lastName) 
+console.log(customer.sayHi())  
+
+var employee:IPerson = { 
+   firstName:"Jim",
+   lastName:"Blakes", 
+   sayHi: ():string =>{return "Hello!!!"} 
+} 
+  
+console.log("Employee  Object ") 
+console.log(employee.firstName);
+console.log(employee.lastName);
+//The example defines an interface. The customer object is of the type IPerson. Hence, it will now be binding on the object to define all properties as specified by the interface.
+
+```
 - Instances
+```ts
+class Person {
+  firstName:string;
+  lastName:string;
+ 
+  constructor(fName:string, lName:string) {
+    this.firstName=fName;
+    this.lastName=lName;
+  }
+} 
+```
 
 </ol>
 
