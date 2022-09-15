@@ -245,8 +245,11 @@ class Person {
 
 1. [Input/Output](./exercises/e00/desc) playground, using `Typescript`
 
+
+
+
 <!--
-2. [Movies](./exercises/e03/desc) exercise, using `Typescript`
+1. [Movies](./exercises/e03/desc) exercise, using `Typescript`
 -->
 
 ## Week challenges (Wednesday) 💻
