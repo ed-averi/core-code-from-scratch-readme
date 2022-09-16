@@ -254,8 +254,60 @@ class Person {
 
 ## Week challenges (Wednesday) 💻
 
-1. [Build Tower](./exercises/e04/desc) exercise, using `Typescript`
-2. [Meeting](./exercises/e05/desc) exercise, using `Typescript`
+1. [Build Tower]([./exercises/e04/desc](https://www.codewars.com/kata/576757b1df89ecf5bd00073b/train/typescript)) exercise, using `Typescript`
+2. [Meeting](https://www.codewars.com/kata/59df2f8f08c6cec835000012/train/typescript)) exercise, using `Typescript`
+
+<ol>
+
+<li><strong><i>Build Tower</i></strong></li>
+
+### Description
+
+```xml
+Build Tower
+
+Build a pyramid-shaped tower given a positive integer number of floors. A tower block is represented with "*" character.
+
+For example, a tower with 3 floors looks like this:
+
+[
+  "  *  ",
+  " *** ", 
+  "*****"
+]
+
+And a tower with 6 floors looks like this:
+
+[
+  "     *     ", 
+  "    ***    ", 
+  "   *****   ", 
+  "  *******  ", 
+  " ********* ", 
+  "***********"
+]
+
+```
+
+### Solution: ✅
+
+```ts
+ export const towerBuilder = (nFloors: number): string[] => {
+  let space,star, tower = [];
+  for(let i = 1; i <= nFloors; i++){
+    space = " ".repeat(nFloors - i);
+    star  = "*".repeat((2*i) - 1);
+    tower.push(`${space}${star}${space}`);
+  }
+  return tower;
+}
+
+```
+
+
+<li><strong><i>Meeting</i></strong></li>
+
+</ol>
 
 ## Week challenges (Thursday) 💻
 
