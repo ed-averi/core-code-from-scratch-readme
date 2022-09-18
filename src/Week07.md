@@ -447,6 +447,10 @@ showPost();
 
 2. ✨Complete your 4th [**Core Challenge**](https://corecode.notion.site/Earn-your-SCRUM-certificate-8d9d0d40abaa4ee18c77c5a2cc1929b8). This is one of the requirements for the certification, where you'll boost your dev professional-brand.
 
+## Scrum Certification
+
+<img src = "https://raw.githubusercontent.com/ed-averi/core-code-from-scratch-readme/main/assets/scrumcertification.jpg"></img>
+
 ## Extra (It is not mandatory for the Readme) ⭐
 
 1. [Menu](./exercises/e02/desc) exercise, using `Typescript`
