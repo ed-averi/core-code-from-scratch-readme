@@ -369,6 +369,77 @@ function meeting(s) {
 ## Week challenges (Thursday) 💻
 
 1. [Interfaces](https://docs.microsoft.com/en-us/learn/modules/typescript-implement-interfaces/) guided exercise, using `Typescript`
+
+```ts
+interface IceCream {
+  flavor: string;
+  scoops: number;
+  instructions?: string; 
+}
+
+let myIceCream: IceCream ={
+  flavor : 'Gummy', scoops :  2
+}
+
+//console.log(myIceCream.flavor)
+
+function tooManyScoops (dessert : IceCream){
+if (dessert.scoops > 5) return dessert.scoops + " is too many Scoops"; else 'Your order will be ready'
+}
+//console.log(tooManyScoops({flavor: 'Gummy', scoops: 6}))
+
+interface Sundae extends IceCream {
+  sauce: "Chocolate"|"Caramel"|"Strawberry";
+  nuts?: boolean;
+  whipopedCream?: boolean;
+  instructions?: string; 
+}
+
+//Indexable types
+interface IceCreamArray {
+    [index: number]: string;
+}
+
+let myIceCream: IceCreamArray;
+myIceCream = ['chocolate', 'vanilla', 'strawberry'];
+let myStr: string = myIceCream[0];
+console.log(myStr); //[LOG]: "chocolate"
+
+
+```
+
+### Javscript using API Interface 
+
+```ts
+//Javascript API using Interface
+const fetchURL = 'https://jsonplaceholder.typicode.com/posts'
+// Interface describing the shape of our json data
+interface Post {
+    userId: number;
+    id: number;
+    title: string;
+    body: string;
+}
+async function fetchPosts(url: string) {
+    let response = await fetch(url);
+    let body = await response.json();
+    return body as Post[];
+}
+async function showPost() {
+    let posts = await fetchPosts(fetchURL);
+    // Display the contents of the first item in the response
+    let post = posts[0];
+    console.log('Post #' + post.id)
+    // If the userId is 1, then display a note that it's an administrator
+    console.log('Author: ' + (post.userId === 1 ? "Administrator" : post.userId.toString()))
+    console.log('Title: ' + post.title)
+    console.log('Body: ' + post.body)
+}
+
+showPost();
+```
+[Click here!](../solutions/week07/implementinterface.ts)
+
 2. ✨Complete your 4th [**Core Challenge**](https://corecode.notion.site/Earn-your-SCRUM-certificate-8d9d0d40abaa4ee18c77c5a2cc1929b8). This is one of the requirements for the certification, where you'll boost your dev professional-brand.
 
 ## Extra (It is not mandatory for the Readme) ⭐
