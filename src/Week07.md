@@ -438,8 +438,10 @@ async function showPost() {
 
 showPost();
 ```
-[Click here!](../solutions/week07/implementinterface.ts)
 
+[Interface Guided Lab!](../solutions/week07/implementinterface.ts)
+
+<br>
 2. ✨Complete your 4th [**Core Challenge**](https://corecode.notion.site/Earn-your-SCRUM-certificate-8d9d0d40abaa4ee18c77c5a2cc1929b8). This is one of the requirements for the certification, where you'll boost your dev professional-brand.
 
 ## Extra (It is not mandatory for the Readme) ⭐
