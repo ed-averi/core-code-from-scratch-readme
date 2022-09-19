@@ -78,6 +78,52 @@ Polymorphism:
 3. [Find The Odd Int]((https://www.codewars.com/kata/54da5a58ea159efa38000836/train/typescript)) exercise, using `Typescript`
 4. [Which Are In?](https://www.codewars.com/kata/550554fd08b86f84fe000a58/train/typescript) exercise, using `Typescript`
 
+<br>
+
+<ol>
+
+<li><strong><i>Make the Deadfish Swim]</i></strong></>
+
+```ts
+//JS Solution
+// Return the output array, and ignore all non-op characters
+
+//     i increments the value (initially 0)
+//     d decrements the value
+//     s squares the value
+//     o outputs the value into the return array
+
+function parse( data )
+{
+  let result = 0;
+  let output = [];
+  
+  data.split('').forEach((operation) => {
+    //     i increments the value (initially 0)
+    if (operation ===  'i'){
+      result += 1;
+    } 
+    //     d decrements the value
+    else if (operation === 'd') {
+      result -= 1;
+    }
+    //     s squares the value
+    else if (operation === 's'){
+      result **=2;
+    }
+    //     o outputs the value into the return array
+    else if(operation === 'o'){
+      output.push(result);
+    }
+  });
+  return output;
+}
+
+
+```
+
+</ol>
+
 ## Week challenges (Thursday) 💻
 
 1. [Define generics in TypeScript](https://docs.microsoft.com/en-us/learn/modules/typescript-generics/) guided exercise, using `Typescript`
