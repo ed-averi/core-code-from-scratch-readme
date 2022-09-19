@@ -119,6 +119,22 @@ function parse( data )
   return output;
 }
 
+// Typescript solution
+/** return the output array and ignore all non-op characters */
+export function parse(data: string): number[] {
+  let res:any = [];
+
+  data.split('').reduce((cur, s) => {
+    if (s === 'i') cur++;  //     i increments the value (initially 0)
+    if (s === 'd') cur--; //     d decrements the value
+    if (s === 's') cur = Math.pow(cur, 2); //     s squares the value
+    if (s === 'o') res.push(cur); //     o outputs the value into the return array
+     
+    return cur;
+  }, 0);
+  
+  return res;
+}
 
 ```
 
