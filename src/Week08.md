@@ -122,7 +122,7 @@ function parse( data )
 // Typescript solution
 /** return the output array and ignore all non-op characters */
 export function parse(data: string): number[] {
-  let res:any = [];
+  let res:number[] = [];
 
   data.split('').reduce((cur, s) => {
     if (s === 'i') cur++;  //     i increments the value (initially 0)
