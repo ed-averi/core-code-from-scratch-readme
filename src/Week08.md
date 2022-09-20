@@ -71,6 +71,8 @@ Polymorphism:
 2. Read [Abstract Classes](https://sbcode.net/typescript/abstract_classes/)
 3. Watch [Abstract Classes vs Interfaces](https://www.youtube.com/watch?v=Lnqmde9LP74) video
 
+> [Developed typed functions guided lab](../solutions/week08/developed-typed-functions.ts)
+
 ## Week challenges (Wednesday) 💻
 
 1. [Make the Deadfish Swim](https://www.codewars.com/kata/51e0007c1f9378fa810002a9/train/typescript) exercise, using `Typescript`
