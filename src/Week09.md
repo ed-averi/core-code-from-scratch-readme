@@ -38,6 +38,10 @@
 
 1. Time to catch up ⏱️ or do extra work ⭐
 
+>Me realizing that I'm way behind
+
+<img src="https://media2.giphy.com/media/PHeIue5jYtd4s/giphy.gif?cid=ecf05e473wcqtjr8s9gkimgzymak4999c4scesp1cxe6hrqr&rid=giphy.gif&ct=g">
+
 ## Week challenges (Thursday) 💻
 
 1. ✨ 6th Core Challenge, complete your [Interview Prep Core Challenge](https://www.notion.so/corecode/Mock-Interviews-a997bd9a907c43e58530ffca517f4cae)
