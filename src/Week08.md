@@ -273,6 +273,17 @@ Notes:
 
 ```
 
+### Solution ✅
+
+```ts
+export function inArray(a1: string[], a2: string[]): string[] {
+   return [... new Set(a1)].filter((sub)=>{
+    let result= a2.find((str)=> str.includes(sub));
+    return result !== undefined;
+ }).sort();
+}
+```
+
 </ol>
 
 ## Week challenges (Thursday) 💻
