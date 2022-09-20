@@ -235,7 +235,7 @@ function findOdd(numbers) {
 
 /**
  * It takes an array of numbers and returns the number that appears an odd number of times
- * @param A - an array of integers
+ * @param xs - an array of integers
  * @returns the value of the array that is not repeated.
  */
 export const findOdd = (xs: number[]): number => {
