@@ -158,10 +158,27 @@ Notes
 Assertion messages may be unclear about what they display in some languages. If you read "...It Should encode XXX", the "XXX" is the expected result, not the input!
 
 ```
-
+### Solution ✅
 
 ```ts
+export function duplicateEncode(word: string){
 
+    let chars=[...word.toLowerCase()];
+    let duplicateList = chars.filter((char,index,chars)=>chars.indexOf(char)!==index);
+    let duplicateSet = new Set(duplicateList); 
+    let uniqueDuplicateList = [...duplicateSet];
+    //console.log(uniqueDuplicateList);
+    let resultString = "";
+    for (let i=0, n=chars.length; i < n; ++i ) {
+      if(uniqueDuplicateList.includes(chars[i])) {
+        resultString += ")";
+      } else {
+        resultString += "(";
+      }
+    }
+    return resultString;  
+  
+}
 ```
 
 
