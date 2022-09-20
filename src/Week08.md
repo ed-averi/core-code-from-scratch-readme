@@ -161,6 +161,18 @@ Assertion messages may be unclear about what they display in some languages. If 
 ### Solution ✅
 
 ```ts
+
+/**
+ * 1. Convert the string to lowercase and convert it to an array of characters.
+ * 2. Filter the array to get a list of duplicate characters.
+ * 3. Convert the list of duplicate characters to a set to get a list of unique duplicate characters.
+ * 4. Loop through the original array of characters and check if the current character is in the list
+ * of unique duplicate characters. If it is, add a closing parenthesis to the result string. If it
+ * isn't, add an opening parenthesis to the result string.
+ * 5. Return the result string
+ * @param word - the input string to test
+ * @returns A string of ( and ) characters.
+ */
 export function duplicateEncode(word: string){
 
     let chars=[...word.toLowerCase()];
