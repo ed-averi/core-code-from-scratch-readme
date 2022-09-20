@@ -227,6 +227,22 @@ function findOdd(numbers) {
   }
 };
 ```
+<br>
+
+### Typescript Solution ✅
+
+```ts
+
+/**
+ * It takes an array of numbers and returns the number that appears an odd number of times
+ * @param A - an array of integers
+ * @returns the value of the array that is not repeated.
+ */
+export const findOdd = (xs: number[]): number => {
+    return xs.reduce(function(c,v){return c^v;},0);
+    };
+
+```
 
 </ol>
 
