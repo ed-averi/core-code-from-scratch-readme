@@ -38,6 +38,7 @@
 ## Week Challenges (Monday) 💻
 
 1. Time to catch up ⏱️ or play with the React project
+<img src="https://media1.giphy.com/media/gFwZfXIqD0eNW/giphy.gif?cid=ecf05e472c09yawpwvfhmveajujaygx9udhjlsbnzarnp8vw&rid=giphy.gif&ct=g"/>
 
 ## Week Challenges (Tuesday) 🐣
 
