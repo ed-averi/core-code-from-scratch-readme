@@ -38,3 +38,19 @@
 ## Week challenges (Tuesday) 💻
 
 1. [React kata](https://www.codewars.com/kata/5a95947f4a6b342636000173)
+
+### Solution ✅
+
+```js
+import React from 'react';
+
+export const EggList = ({eggs}) => {
+  return <ul>{eggs.map((v, i) => <EasterEgg name={v} key={i} />)}</ul>;
+};
+ 
+export const EasterEgg = ({name,key}) => {
+  return <li key={key}>{name}</li>;
+};
+
+//Time: 3937ms Passed: 23Failed: 0
+```
