@@ -22,7 +22,7 @@
 
 1. Time to catch up ⏱️
 
-<img src="https://media4.giphy.com/media/RfvBXK1m8Kcdq/giphy.gif?cid=ecf05e47ko6ehopjury8ybm7aphcwdiz1furjnx7jn179piz&rid=giphy.gif&ct=g ">
+<img src="https://media1.giphy.com/media/QMHoU66sBXqqLqYvGO/giphy.gif?cid=ecf05e47ca1lqtqs3ad25ayukmc4zmwo1bhgqj8y03oy3bi0&rid=giphy.gif&ct=g ">
 
 ## Week challenges (Tuesday) 💻
 
