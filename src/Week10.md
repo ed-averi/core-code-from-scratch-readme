@@ -63,6 +63,12 @@ Keys help React identify which items have changed, are added, or are removed. Ke
 ### Solution ✅
 
 ```js
+
+/**
+ * The EasterEgg component is a function that takes in a name and a key and returns a list item with
+ * the name and key
+ */
+
 import React from 'react';
 
 export const EggList = ({eggs}) => {
