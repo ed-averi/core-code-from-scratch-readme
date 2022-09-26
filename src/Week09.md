@@ -26,6 +26,11 @@
 
 1. [TicTacToe](./exercises/e00/desc) exercise, using `Typescript`
 
+### Solution ✅
+
+[Here](https://github.com/ed-averi/tic-tac-toe) you can go to the repository in <kbd>Github</kbd> <img height= "25" width= "25" src="https://cdn.icon-icons.com/icons2/2429/PNG/512/github_logo_icon_147285.png"/>
+
+[Here](https://xv9chv.csb.app/) you can check the live version using <kbd>CodeSandBox</kbd> <img height="25" src="https://user-images.githubusercontent.com/9214195/55269840-27da2a00-526e-11e9-8944-6f2d7f8401b4.png"/>
 ## Week challenges (Tuesday) 💻
 
 1. Check the [All You Need To Know About TypeScript](https://www.youtube.com/watch?v=eCZhz0JCVx0) video
