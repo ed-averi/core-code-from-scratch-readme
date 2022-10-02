@@ -47,7 +47,7 @@
 1. [Node.JS Core Understanding](../exercise-md/nore-code.md) Learning Exercise 🧠 ✅✅
 2. [Node.JS Module System Core Understanding](../exercise-md/Node.JS%20Module%20System%20Core%20Understanding.md) Learning Exercise 🧠 ✅✅
 3. [Node.JS Module System](../exercise-md/module-system-practice.md) Practice 💻 ✅✅
-4. [Client-Server Model](./exercises/e00/CLIENT-SERVER.md) Learning Exercise 🧠
+4. [Client-Server Model](../exercise-md/client-server-model.md) Learning Exercise 🧠✅✅
 
 ***
 ## Week Challenges (Wednesday) 🐤
