@@ -7,7 +7,7 @@ much easier for us to work with this powerful tool. In this exercise your task
 is to answer the following questions in your own words:
 
 1.  What is Node.JS? <p><i> 🔶Is an open-source and cross-platform JavaScript runtime environment. It is a popular tool for almost any kind of project!</i></p>
-2.  What problem does Node.JS solve? <p><i>🔶The primary objective of Node is to “offer an easy approach to construct scalable network programs." </i></p>
+2.  What problem does Node.JS solve? <p><i>🔶 “offer an easy approach to construct scalable network programs." </i></p>
 3.  What is the V8 Javascript Engine?<p><i>🔶V8 JavaScript engine is an open source JavaScript and WebAssembly engine that compiles JavaScript to optimized machine code before execution.</i></p>
 4.  Is Node.JS really necessary in the Development ecosystem? <p><i>🔶If the goal is to deliver web-based applications required to deliver a great user experience and prompt response time, then yes. </i></p>
 5.  What is the difference between Node.JS and any other browser?<p><i>🔶Node.js has full access, meaning it can read and write directly to/from the file system bedcause it executes JS in the server side meanwhile the browser has Javascript restricted.</i></p>
@@ -15,10 +15,10 @@ is to answer the following questions in your own words:
 
 </i></p>
 
->It's important to share your opinion with the team and thus be able to
+<!-- >>It's important to share your opinion with the team and thus be able to
 form your own concept of Node.JS, so before answering the questions, meet
 or chat with at least two colleagues and discuss the answers as a group and
-refine your final answers.
+refine your final answers. -->
 
 ## How to submit my solution?
 
@@ -27,9 +27,9 @@ of the colleagues with whom you exchanged ideas.
 
 <img src="https://media3.giphy.com/media/eKfovWZOlOpbTDEX9F/giphy.gif?cid=ecf05e4735bbmm0qub146n7dka7g7fbrr62i9j9glt223d68&rid=giphy.gif&ct=g"/>
 
-## More Help?
+<!-- ## More Help?
 
-Slack us 😉
+Slack us 😉 -->
 
 ## Useful Resources:
 
