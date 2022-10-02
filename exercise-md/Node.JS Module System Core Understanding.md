@@ -7,8 +7,8 @@ practice with one of its most important concepts: The Module System.
 
 Please answer the following questions with your own words:
 
-1. What is a Javascript Module?
-2. Why are Javascript Modules necessary?
+1. What is a Javascript Module? <p><i>🔶A JavaScript module is simply a JavaScript file with pieces of the whole code exported for use by other pieces of code. </i></p>
+2. Why are Javascript Modules necessary?<p><i>🔶To better organize and structure your code</i></p>
 3. What module standards are available in Node.JS?
 4. What are the differences between ESModules and CommonJS modules?
 5. Which types of modules exist in Node.JS?
