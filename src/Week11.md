@@ -60,5 +60,5 @@
 ***
 ## Week challenges (Thursday) 💻
 
-1. [Forrest Gump Ping-Pong API 🏓](https://github.com/ed-averi/ping-pong/blob/master/README.md)✅✅
+1. [Forrest Gump Ping-Pong API 🏓](https://github.com/ed-averi/ping-pong)✅✅
 2. [Delayed Response API ⏳](./exercises/e03/API-2.md)
