@@ -1,0 +1,44 @@
+# APIs Core Understanding
+
+## Description
+
+We are sure you've heard the word API many times before, but
+do you know what an API is?
+
+Knowing what an API really is will help you understand how important
+structured communication between two different programs is and what
+options currently exist to achieve such communication.
+
+Please answer the following questions with your own words:
+
+1. What is an API?
+2. What is a Protocol?
+3. Is the term API only applicable to the communication of programs over the Internet?
+4. Why is structured communication between two programs important?
+   - Do we humans use APIs when communicating without technology?
+5. Is an API just another program or a standard?
+6. Do you know any API? Can you list at least 5 examples of APIs?
+
+<!-- It's important to share your opinion with the team and thus be able to
+form your own concept of the APIs, so before answering the
+questions, meet or chat with at least two colleagues and discuss the answers
+as a group and refine your final answers. -->
+
+<!-- ## How to submit my solution?
+
+Add your answers to your README file, add a link to the github profile
+of the colleagues with whom you exchanged ideas. -->
+
+<!-- ## More Help?
+
+Slack us 😉 -->
+
+## Useful Resources:
+
+Check out these links, where you can find some starting point for your research:
+
+- [What is an API?](https://www.redhat.com/es/topics/api/what-are-application-programming-interfaces)
+- [APIs](https://www.mulesoft.com/es/resources/api/what-is-an-api)
+- [APIs Model](https://www.youtube.com/watch?v=s7wmiS2mSXY)
+- [AWS APIs](https://aws.amazon.com/what-is/api/)
+- [Types of APIs](https://www.techtarget.com/searchapparchitecture/definition/application-program-interface-API)
