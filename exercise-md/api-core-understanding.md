@@ -12,11 +12,11 @@ options currently exist to achieve such communication.
 Please answer the following questions with your own words:
 
 1. What is an API? <p style="color: yellow"><i><a href="https://aws.amazon.com/what-is/api/">APIs</a> are mechanisms that enable two software components to communicate with each other using a set of definitions and protocols. For example, the weather bureau’s software system contains daily weather data. The weather app on your phone “talks” to this system via APIs and shows you daily weather updates on your phone.</i></p>
-2. What is a Protocol? <p style="color: yellow">A set of rules and guidelines<i></i></p>
-3. Is the term API only applicable to the communication of programs over the Internet? <p style="color: yellow"><i>No, API allows programs written in one language to use a library written in another. For example, because Scala and Java compile to compatible bytecode</i></p>
-4. Why is structured communication between two programs important?<p  style="color: yellow"><i>Otherwise they wouldn't be able to communicate.</i></p>
-   - Do we humans use APIs when communicating without technology? <p style="color: yellow"><i>Yes, as stated above an API is a set of defined rules that explain how computers or applications communicate with one another.</i></p>
-5. Is an API just another program or a standard? <p style ="color: yellow"><i>A program</i></p>
+2. What is a Protocol? <p style="color: yellow">🔶A set of rules and guidelines<i></i></p>
+3. Is the term API only applicable to the communication of programs over the Internet? <p style="color: yellow"><i>🔶No, API allows programs written in one language to use a library written in another. For example, because Scala and Java compile to compatible bytecode</i></p>
+4. Why is structured communication between two programs important?<p  style="color: yellow"><i>🔶Otherwise they wouldn't be able to communicate.</i></p>
+   - Do we humans use APIs when communicating without technology? <p style="color: yellow"><i>🔶Yes, as stated above an API is a set of defined rules that explain how computers or applications communicate with one another.</i></p>
+5. Is an API just another program or a standard? <p style ="color: yellow"><i>🔶A program</i></p>
 6. Do you know any API? Can you list at least 5 examples of APIs?
 
 <ul><i>
