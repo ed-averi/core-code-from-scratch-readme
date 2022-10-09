@@ -44,7 +44,7 @@
 
 1. Work on your project
 
-<img src="https://media0.giphy.com/media/i8e7h6GcdopvVG5Nhm/giphy.gif?cid=ecf05e47kzfrng5iek4tnqy071eflk1xs20qlepbidp8p47d&rid=giphy.gif&ct=g" />
+<img src="https://media3.giphy.com/media/J9YS4GIQcjzzkrIKkM/giphy.gif?cid=ecf05e477brbxl55k6m4zakdt4818yv5s18g9v2mo5pty0ow&rid=giphy.gif&ct=g" />
 
 ## Week challenges (Wednesday) 💻
 
@@ -55,4 +55,4 @@
 
 1. Work on your project
 
-<img src="https://media2.giphy.com/media/QKkV58ufpV4ksJ1Okh/giphy.gif?cid=ecf05e47h1brlzmg4y12d749revkfc4hg4eau38si5ye3t3a&rid=giphy.gif&ct=g"/>
+<img src="https://media4.giphy.com/media/UTkWBBmaghvM6ahetB/giphy.gif?cid=ecf05e47yi1ueegba0mh5jqkbf452d9da9wuoyc0krarbdjn&rid=giphy.gif&ct=g"/>
