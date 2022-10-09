@@ -55,7 +55,7 @@
 1. [APIs Core Understanding](../exercise-md/api-core-understanding.md) Learning Exercise 🧠✅✅
 2. [From JSON to REST](../exercise-md/json-to-rest.md) Learning Exercise 🧠✅✅
 3. [REST API Clients](../exercise-md/REST-API-CLIENTS.md) Learning Exercise 🧠✅✅
-4. [Express.JS Core Understanding](./exercises/e01/EXPRESS-CORE.md) Learning Exercise 🧠
+4. [Express.JS Core Understanding](./exercises/e01/EXPRESS-CORE.md) Learning Exercise 🧠✅✅
 
 ***
 ## Week challenges (Thursday) 💻
