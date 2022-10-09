@@ -37,7 +37,7 @@
 
 ***
 
-<p style="text-align: center">🚨⚠️<i><strong>Please click on each link to redirect you to the solutions</strong></i>⚠️🚨</p>
+<p style="text-align: center"><i><strong>🚨⚠️Please click on each link to redirect you to the solutions⚠️🚨</strong></i></p>
 
 ***
 ## Week Challenges (Monday) 💻
