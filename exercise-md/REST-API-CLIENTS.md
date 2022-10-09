@@ -10,8 +10,8 @@ Please complete the following exercises:
 1. Install Postman in your computer, follow [this](https://learning.postman.com/docs/getting-started/installation-and-updates/) guide ✅
 2. Watch [this](https://www.youtube.com/watch?v=VywxIQ2ZXw4) course about how to use Postman to interact with APIs ✅
 3. Answer the questions:
-   - Postman only works with REST APIs? <p><i>🔶</i></p>
-   - Is there an alternative to Postman? <p><i>🔶</i></p>
+   - Postman only works with REST APIs? <p><i>🔶It also test different APIs. </i></p>
+   - Is there an alternative to Postman? <p><i>🔶Yes, <a href="https://docs.apigee.com/">Apigee</a> for example.</i></p>
 
 <!-- ## How to submit my solution?
 
