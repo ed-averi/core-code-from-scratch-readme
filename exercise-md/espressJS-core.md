@@ -16,6 +16,14 @@ Please complete the assignments:
   - Create an Express.JS Hello World application following [this](https://expressjs.com/es/starter/hello-world.html) guide.
 
 
+Here the result:
+
+<img src ="https://raw.githubusercontent.com/ed-averi/core-code-from-scratch-readme/main/assets/HelloWorldJS.jpg"/>
+
+<br>
+<a href="https://github.com/ed-averi/HelloWorld-ExpressJS">Repository</a>
+
+<br>
 <!-- ## How to submit my solution?
 
 Add your answers to your README file. -->
