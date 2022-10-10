@@ -35,3 +35,7 @@ Create a simple REST API that tries to predict an age based on a name.
     "error": "Missing parameter 'name' was expected."
   }
   ```
+
+## Solution ✅
+
+[Repository](https://github.com/ed-averi/api-guess-age)
