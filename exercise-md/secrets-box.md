@@ -66,3 +66,131 @@ Here you have a list of useful resources that can help you with the challenge:
 - [Base64](https://en.wikipedia.org/wiki/Base64)
 
 - [Node.JS Base 64 Encoding - Decoding](https://attacomsian.com/blog/nodejs-base64-encode-decode)
+
+## Solution ✅
+
+### Code
+
+```js
+//index.js
+const cors = require("cors");
+const express = require("express");
+const validateRole = require("./lib/role-validator");
+const { getAccountCredentials } = require("./lib/credentials-client");
+
+const app = express();
+
+app.use(express.urlencoded({ extended: false }));
+app.use(express.json());
+app.use(cors());
+
+app.get("/secrets-box/api", async (req, res) => {
+  const { role } = req.body;
+
+  if (!role) {
+    res.status(401).send({
+      error: `Expected role, got ${role}`,
+    });
+    res.end();
+  }
+
+  const isValidRole = validateRole(role);
+
+  if (!isValidRole) {
+    const error = await getAccountCredentials(role);
+    res.status(401).send({ ...error });
+    return;
+  }
+
+  const credentials = await getAccountCredentials(role);
+  res.send({ ...credentials });
+});
+
+app.listen(8080, () => {
+  console.clear();
+  console.log(`Server running on localhost:8080`);
+});
+
+
+```
+
+### Role Validator
+
+```js
+//role-validator 
+function validatRole(role) {
+  const roles = {
+    contractor: 1,
+    agent: 0.1,
+    director: 0.01,
+  };
+
+  const randomNumber = Math.random();
+
+  if (!roles[role]) {
+    role = "agent";
+  }
+
+/*
+Below is the tricky part. In order to get the credentials for the account through a
+requestquest via Postman {body} we have to enter a key role and value {toString}
+What this does is that it converts the function to string; automatically it will try to convert the string to a function therefore, it will be false and return true, which will give us the information that we're looking for.
+*/
+
+  if (randomNumber < roles[role]) {
+    return false;
+  } else if (randomNumber > roles[role]) {
+    return false;
+  } else if (randomNumber === roles[role]) {
+    return false;
+  }
+
+  return true;
+}
+
+module.exports = validateRole;
+
+```
+
+### Credentials-client
+
+```js
+const axios = require("axios");
+
+/**
+ *
+ * This method will call an external API and make a second
+ * validation of the role using the exact same function of
+ * the role-validator.js file, if you crack the validateRole
+ * function you will be able to hack the entire API.
+ *
+ */
+
+async function getAccountCredentials(role) {
+  try {
+    const response = await axios.post(
+      "https://credentials-server.vercel.app/api",
+      { role }
+    );
+
+    return response.data;
+  } catch (error) {
+    return {
+      error: "Invalid Role try again :)",
+    };
+  }
+}
+
+module.exports = { getAccountCredentials };
+
+```
+
+
+We were able to <kbd>hack</kbd> and get access to the account. 
+
+<img  height="400" src="../assets/wearein.jpg"/>
+
+
+Running the request via Postman
+
+<img src="../assets/postman.jpg"/>

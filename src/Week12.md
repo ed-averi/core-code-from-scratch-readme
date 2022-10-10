@@ -49,7 +49,7 @@
 ## Week challenges (Wednesday) 💻
 
 1. [Age Prediction API 👶-👴](./../exercise-md/Age-Prediction-API.md)
-2. [NSA Secrets Box API - Hacking Challenge 👨‍💻](../exercise-md/secrets-box.md)
+2. [NSA Secrets Box API - Hacking Challenge 👨‍💻](../exercise-md/secrets-box.md) ✅✅
 
 ## Week challenges (Thursday) 💻
 
