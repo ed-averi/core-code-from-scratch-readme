@@ -1,4 +1,4 @@
-<p style="align: left">
+<p align="left">
 
 <a href="https://forthebadge.com">
 <img width="25%" height="25" src="https://forthebadge.com/images/badges/powered-by-coders-sweat.svg">
@@ -8,9 +8,6 @@
 <a/>
 <a href="https://forthebadge.com">
 <img width="25%" height="25" src="https://forthebadge.com/images/badges/not-a-bug-a-feature.svg">
-<a/>
-<a href="https://forthebadge.com">
-<img width="25%" height="25" src="https://forthebadge.com/images/badges/made-with-crayons.svg">
 <a/>
 </p>
 
