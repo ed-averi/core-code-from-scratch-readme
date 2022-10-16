@@ -1,3 +1,19 @@
+<p style="align: left">
+
+<a href="https://forthebadge.com">
+<img width="25%" height="25" src="https://forthebadge.com/images/badges/powered-by-coders-sweat.svg">
+<a/>
+<a href="https://forthebadge.com">
+<img width="25%" height="25" src="https://forthebadge.com/images/badges/powered-by-energy-drinks.svg">
+<a/>
+<a href="https://forthebadge.com">
+<img width="25%" height="25" src="https://forthebadge.com/images/badges/not-a-bug-a-feature.svg">
+<a/>
+<a href="https://forthebadge.com">
+<img width="25%" height="25" src="https://forthebadge.com/images/badges/made-with-crayons.svg">
+<a/>
+</p>
+
 <a href="https://www.core-code.io/">
 
 ![alt text](https://uploads-ssl.webflow.com/5eb2f56932c3562feab232e3/5f73550d00249e7e96c9f3de_Logo.png "corecodeio")
